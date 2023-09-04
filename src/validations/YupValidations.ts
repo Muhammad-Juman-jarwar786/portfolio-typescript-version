@@ -15,3 +15,14 @@ export const addProjectSchema = Yup.object({
   githubLink: Yup.string().required('Github Link is Required'),
   websiteLink: Yup.string().required('Website Link is Required'),
 });
+
+export const ContactFormSchema = Yup.object({
+  name: Yup.string().required('Full Name is Required'),
+  email: Yup.string()
+    .email('Email is Invalid')
+    .required('Your Email is Required'),
+  subject: Yup.string(),
+  description: Yup.string()
+    .min(10, 'Minimum 10 Letters')
+    .required('Your Description is Required'),
+});

@@ -15,6 +15,7 @@ import Login from './components/login/Login';
 import ProjectsShowCase from './pages/ProjectsShowCase';
 import AddProject from './components/projects/AddProject';
 import AboutMe from './pages/AboutMe';
+import ContactMe from './pages/ContactMe';
 
 const App = () => {
   return (
@@ -41,6 +42,7 @@ const App = () => {
           }
         />
         <Route path="/about" element={<AboutMe />} />
+        <Route path="/contact" element={<ContactMe />} />
         <Route path="/projects" element={<ProjectsShowCase />} />
         <Route path="/addproject" element={<AddProject />} />
         <Route path="/login" element={<Login />} />

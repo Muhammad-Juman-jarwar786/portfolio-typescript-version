@@ -71,7 +71,7 @@ const Navbar = () => {
             } hover:text-white text-[18px] font-medium cursor-pointer`}
             onClick={() => setActive('contact')}
           >
-            <a href="#contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
           <li
             className={`${
@@ -128,7 +128,7 @@ const Navbar = () => {
                   setActive('contact');
                 }}
               >
-                <a href="#contact">Contact</a>
+                <Link to="/contact">Contact</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
