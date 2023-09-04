@@ -12,7 +12,8 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
-    message: '',
+    subject: '',
+    description: '',
   });
 
   const [loading, setLoading] = useState(false);
@@ -33,16 +34,17 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_99f5gyk',
+        'template_tsx4cso',
         {
-          from_name: form.name,
-          to_name: 'JavaScript Mastery',
-          from_email: form.email,
-          to_email: 'sujata@jsmastery.pro',
-          message: form.message,
+          name: form.name,
+          to_name: 'Muhammad juman',
+          email: form.email,
+          to_email: 'muhammad1juman@gmail.com',
+          subject: form.subject,
+          description: form.description,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        '9w88iaI221xtgRlcq'
       )
       .then(
         () => {
@@ -52,7 +54,8 @@ const Contact = () => {
           setForm({
             name: '',
             email: '',
-            message: '',
+            subject: '',
+            description: '',
           });
         },
         (error) => {
@@ -105,11 +108,23 @@ const Contact = () => {
             />
           </label>
           <label className="flex flex-col">
+            <span className="text-white font-medium mb-4">Subject</span>
+            <input
+              type="text"
+              name="subject"
+              autoComplete="true"
+              value={form.subject}
+              onChange={handleChange}
+              placeholder="Specify Your Subject"
+              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+            />
+          </label>
+          <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows={7}
-              name="message"
-              value={form.message}
+              name="description"
+              value={form.description}
               onChange={handleChange}
               placeholder="What you want to say?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"

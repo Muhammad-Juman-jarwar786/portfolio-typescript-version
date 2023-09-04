@@ -1,9 +1,13 @@
 import { useFormik } from 'formik';
+import emailjs from '@emailjs/browser';
 // import { useRef, useState } from 'react';
 import '../components/Button.css';
 import { ContactFormSchema } from '../validations/YupValidations';
+import { useState } from 'react';
 
 const ContactMe = () => {
+  const [loading, setLoading] = useState(false);
+
   const formik = useFormik({
     initialValues: {
       name: '',
@@ -13,8 +17,29 @@ const ContactMe = () => {
     },
     validationSchema: ContactFormSchema,
     onSubmit: (values) => {
+      setLoading(true);
+      emailjs
+        .send(
+          'service_99f5gyk',
+          'template_tsx4cso',
+          values,
+          '9w88iaI221xtgRlcq'
+        )
+        .then(
+          () => {
+            setLoading(false);
+            alert('Thank you. I will get back to you as soon as possible.');
+
+            formik.resetForm();
+          },
+          (error) => {
+            setLoading(false);
+            console.error(error);
+
+            alert('Ahh, something went wrong. Please try again.');
+          }
+        );
       formik.resetForm();
-      console.log(values);
     },
   });
 
@@ -105,7 +130,7 @@ const ContactMe = () => {
             type="submit"
             className="btnSignIn bg-[#151030] hover: drop-shadow-lg text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-4 rounded-md shadow-md hover:bg-[#151040] mt-5"
           >
-            Add Project
+            {loading ? 'Sending...' : 'Send'}
           </button>
         </form>
       </div>
