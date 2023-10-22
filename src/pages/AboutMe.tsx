@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
+import MyPic from '../assets/ProfilePicture.png';
 
 const AboutMe = () => {
   return (
@@ -12,14 +13,17 @@ const AboutMe = () => {
           >
             About Me
           </p>
+          <div className='flex justify-center'>
+          <img className='w-28 h-40 lg:w-64 lg:h-96 mt-10 -mb-5 lg:-mb-20' src={MyPic} alt="" />
+          </div>
           <h2 className={`${styles.sectionHeadText} text-[#915EFF]`}>
             Introduction
           </h2>
         </motion.div>
-        <div className="w-full flex">
+        <div className="w-full flex justify-center">
           <motion.p
             variants={fadeIn('', '', 0.1, 1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto"
+            className="mt-3 text-secondary text-[17px] text-justify max-w-3xl leading-[30px]  mx-10"
           >
             Hello, I'm Muhammad Juman, a passionate software developer with a
             strong foundation in TypeScript and JavaScript. My expertise extends
