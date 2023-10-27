@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-import { styles } from '../styles';
-import { logo, menu, close } from '../assets';
+import { styles } from "../styles";
+import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
-  const [active, setActive] = useState('');
+  const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -19,9 +19,9 @@ const Navbar = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    return () => window.removeEventListener('scroll', handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
   return (
@@ -29,7 +29,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? 'bg-primary' : 'bg-transparent'
+        scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -37,7 +37,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center gap-2"
           onClick={() => {
-            setActive('');
+            setActive("");
             window.scrollTo(0, 0);
           }}
         >
@@ -51,33 +51,33 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           <li
             className={`${
-              active === 'about' ? 'text-white' : 'text-secondary'
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive('about')}
+              active === "about" ? "text-white" : "text-secondary"
+            } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
+            onClick={() => setActive("about")}
           >
             <Link to="/about">About</Link>
           </li>
           <li
             className={`${
-              active === 'work' ? 'text-white' : 'text-secondary'
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive('work')}
+              active === "work" ? "text-white" : "text-secondary"
+            } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
+            onClick={() => setActive("work")}
           >
             <Link to="/projects">Work</Link>
           </li>
           <li
             className={`${
-              active === 'contact' ? 'text-white' : 'text-secondary'
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive('contact')}
+              active === "contact" ? "text-white" : "text-secondary"
+            } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
+            onClick={() => setActive("contact")}
           >
             <Link to="/contact">Contact</Link>
           </li>
           <li
             className={`${
-              active === 'login' ? 'text-white' : 'text-secondary'
-            } hover:text-white text-[18px] font-medium cursor-pointer`}
-            onClick={() => setActive('login')}
+              active === "login" ? "text-white" : "text-secondary"
+            } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
+            onClick={() => setActive("login")}
           >
             <Link to="/login">Admin Login</Link>
           </li>
@@ -93,50 +93,50 @@ const Navbar = () => {
 
           <div
             className={`${
-              !toggle ? 'hidden' : 'flex'
+              !toggle ? "hidden" : "flex"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === 'about' ? 'text-white' : 'text-secondary'
+                  active === "about" ? "text-white" : "text-secondary"
                 }`}
                 onClick={() => {
                   setToggle(!toggle);
-                  setActive('about');
+                  setActive("about");
                 }}
               >
                 <Link to="/about">About</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === 'work' ? 'text-white' : 'text-secondary'
+                  active === "work" ? "text-white" : "text-secondary"
                 }`}
                 onClick={() => {
                   setToggle(!toggle);
-                  setActive('work');
+                  setActive("work");
                 }}
               >
                 <Link to="/projects">Work</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === 'contact' ? 'text-white' : 'text-secondary'
+                  active === "contact" ? "text-white" : "text-secondary"
                 }`}
                 onClick={() => {
                   setToggle(!toggle);
-                  setActive('contact');
+                  setActive("contact");
                 }}
               >
                 <Link to="/contact">Contact</Link>
               </li>
               <li
                 className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === 'login' ? 'text-white' : 'text-secondary'
+                  active === "login" ? "text-white" : "text-secondary"
                 }`}
                 onClick={() => {
                   setToggle(!toggle);
-                  setActive('login');
+                  setActive("login");
                 }}
               >
                 <Link to="/login">Admin Login</Link>

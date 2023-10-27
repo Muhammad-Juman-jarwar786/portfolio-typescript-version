@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 
 import {
   About,
@@ -35,7 +35,8 @@ const App = () => {
               <Works />
               <Feedbacks />
               <div className="relative z-0">
-                <Contact />
+                {/* <Contact /> */}
+                <FAQs />
                 <StarsCanvas />
               </div>
             </div>
