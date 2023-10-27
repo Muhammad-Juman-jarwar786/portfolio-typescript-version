@@ -86,10 +86,10 @@ const FAQs = () => {
           <div key={idx} className="group">
             <div
               key={item.id}
-              className={`bg-[#151030] text-white relative group-hover:bg-yellow-400 group-hover:text-gray-900 mb-1 mx-3 md:mx-8 p-5 cursor-pointer transition-all duration-500 ease-linear ${
+              className={`bg-tertiary text-white relative group-hover:bg-yellow-400 group-hover:text-gray-900 mb-1 mx-3 md:mx-8 p-5 cursor-pointer transition-all duration-500 ease-linear ${
                 showDetails[item.id]
                   ? "bg-white h-[550px]"
-                  : "bg-[#151030] h-[150px]"
+                  : "bg-tertiary h-[150px]"
               }`}
               onClick={() => handleShowDetails(item.id)}
             >
