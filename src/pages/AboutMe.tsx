@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { fadeIn, textVariant } from '../utils/motion';
-import MyPic from '../assets/ProfilePicture.png';
+import {MyPic} from '../assets';
 
 const AboutMe = () => {
   return (
@@ -13,8 +13,8 @@ const AboutMe = () => {
           >
             About Me
           </p>
-          <div className='flex justify-center'>
-          <img className='w-28 h-40 lg:w-64 lg:h-96 mt-10 -mb-5 lg:-mb-20' src={MyPic} alt="" />
+          <div className='flex justify-center '>
+          <img className='w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-4 lg:border-8 border-white rounded-full' src={MyPic} alt="" />
           </div>
           <h2 className={`${styles.sectionHeadText} text-[#915EFF]`}>
             Introduction

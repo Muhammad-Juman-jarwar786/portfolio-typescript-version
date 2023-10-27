@@ -34,6 +34,7 @@ import jobit from './jobit.png';
 import tripguide from './tripguide.png';
 import websitetoshow from './websitetoshow.jpg';
 import dashboard from './dashboard.jpg';
+import MyPic from './ProfilePic.png'
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   dashboard,
   adobeillustrator,
   expressjs,
+  MyPic
 };

@@ -1,62 +1,62 @@
-// import {
-  // mobile,
-  // backend,
-  // creator,
-  // web,
-  // javascript,
-  // typescript,
-  // html,
-  // css,
-  // reactjs,
-  // redux,
-  // tailwind,
-  // nodejs,
-  // mongodb,
+import {
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
   // git,
-  // figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  // carrent,
-  // jobit,
-  // tripguide,
-  // websitetoshow,
-  // dashboard,
-  // threejs,
-  // adobeillustrator,
-  // expressjs,
-// } from '../assets';
+  figma,
+  docker,
+  meta,
+  starbucks,
+  tesla,
+  shopify,
+  carrent,
+  jobit,
+  tripguide,
+  websitetoshow,
+  dashboard,
+  threejs,
+  adobeillustrator,
+  expressjs,
+} from '../assets';
 
-import { mobile } from '../assets';
-import { mongodb } from '../assets';
-import { backend } from '../assets';
-import { creator } from '../assets';
-import { web } from '../assets';
-import { javascript } from '../assets';
-import { typescript } from '../assets';
-import { html } from '../assets';
-import { css } from '../assets';
-import { reactjs } from '../assets';
-import { redux } from '../assets';
-import { tailwind } from '../assets';
-import { nodejs } from '../assets';
+// import { mobile } from '../assets';
+// import { mongodb } from '../assets';
+// import { backend } from '../assets';
+// import { creator } from '../assets';
+// import { web } from '../assets';
+// import { javascript } from '../assets';
+// import { typescript } from '../assets';
+// import { html } from '../assets';
+// import { css } from '../assets';
+// import { reactjs } from '../assets';
+// import { redux } from '../assets';
+// import { tailwind } from '../assets';
+// import { nodejs } from '../assets';
 // import { git } from '../assets';
-import { figma } from '../assets';
-import { docker } from '../assets';
-import { meta } from '../assets';
-import { starbucks } from '../assets';
-import { tesla } from '../assets';
-import { shopify } from '../assets';
-import { carrent } from '../assets';
-import { jobit } from '../assets';
-import { tripguide } from '../assets';
-import { websitetoshow } from '../assets';
-import { dashboard } from '../assets';
-import { threejs } from '../assets';
-import { adobeillustrator } from '../assets';
-import { expressjs } from '../assets';
+// import { figma } from '../assets';
+// import { docker } from '../assets';
+// import { meta } from '../assets';
+// import { starbucks } from '../assets';
+// import { tesla } from '../assets';
+// import { shopify } from '../assets';
+// import { carrent } from '../assets';
+// import { jobit } from '../assets';
+// import { tripguide } from '../assets';
+// import { websitetoshow } from '../assets';
+// import { dashboard } from '../assets';
+// import { threejs } from '../assets';
+// import { adobeillustrator } from '../assets';
+// import { expressjs } from '../assets';
 
 
 const services = [

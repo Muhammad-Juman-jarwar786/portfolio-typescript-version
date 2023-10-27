@@ -12,10 +12,10 @@ import {
   StarsCanvas,
 } from './components';
 import Login from './components/login/Login';
-import ProjectsShowCase from './pages/ProjectsShowCase';
+import {ProjectsShowCase} from './pages';
 import AddProject from './components/projects/AddProject';
-import AboutMe from './pages/AboutMe';
-import ContactMe from './pages/ContactMe';
+import {AboutMe} from './pages';
+import {ContactMe} from './pages';
 
 const App = () => {
   return (
