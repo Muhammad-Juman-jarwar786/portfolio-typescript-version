@@ -84,7 +84,7 @@ const Login = () => {
           </div>
           <div className="grid md:grid-cols-2 items-center md:justify-between">
             <button
-              className="btnSignIn bg-[#151030] hover: drop-shadow-lg text-slate-50 font-bold text-lg transition-all duration-500 w-full md:w-fit hover:scale-105 py-2 px-4 rounded-md shadow-md tracking-wider"
+              className="btnSignIn bg-[#151030] hover: drop-shadow-lg text-slate-50 font-bold text-lg transition-all duration-500 w-fit mx-auto md:mx-0 md:w-fit hover:scale-105 py-2 px-4 rounded-md shadow-md tracking-wider"
               type="submit"
             >
               Sign In
