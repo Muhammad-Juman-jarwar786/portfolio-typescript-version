@@ -1,30 +1,30 @@
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import { Tilt } from "react-tilt";
+import { motion } from "framer-motion";
 
-import { styles } from '../styles';
-import { github, world } from '../assets';
+import { styles } from "../styles";
+import { github, world } from "../assets";
 // import { SectionWrapper } from '../hoc';
 // import { projects } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { Link } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { fadeIn, textVariant } from "../utils/motion";
+import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
-import DataBase from '../config/firebase';
-import { ref, get } from 'firebase/database';
+import DataBase from "../config/firebase";
+import { ref, get } from "firebase/database";
 
 const fetchProjectData = async () => {
   try {
-    const dbRef = ref(DataBase, 'projects');
+    const dbRef = ref(DataBase, "projects");
     const snapshot = await get(dbRef);
 
     if (snapshot.exists()) {
       return Object.values(snapshot.val());
     } else {
-      console.log('No data available');
+      console.log("No data available");
       return null;
     }
   } catch (error) {
-    console.error('Error fetching data:', error);
+    console.error("Error fetching data:", error);
     return null;
   }
 };
@@ -40,12 +40,12 @@ export const ProjectCard = ({
   githubLink,
   websiteLink,
 }: any) => {
-  const TagColor1 = 'blue-text-gradient';
-  const TagColor2 = 'green-text-gradient';
-  const TagColor3 = 'pink-text-gradient';
+  const TagColor1 = "blue-text-gradient";
+  const TagColor2 = "green-text-gradient";
+  const TagColor3 = "pink-text-gradient";
 
   return (
-    <motion.div variants={fadeIn('up', 'spring', index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -62,7 +62,7 @@ export const ProjectCard = ({
           />
           <div className="absolute top-0 left-0 h-fit w-fit m-3">
             <div
-              onClick={() => window.open(websiteLink, '_blank')}
+              onClick={() => window.open(websiteLink, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -74,7 +74,7 @@ export const ProjectCard = ({
           </div>
           <div className="absolute top-0 right-0 h-fit w-fit m-3">
             <div
-              onClick={() => window.open(githubLink, '_blank')}
+              onClick={() => window.open(githubLink, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -124,7 +124,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p
-          variants={fadeIn('', '', 0.1, 1)}
+          variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto"
         >
           Following projects showcases my skills and experience through
@@ -153,7 +153,7 @@ const Works = () => {
 
       <div className="text-center mt-10">
         <Link to="/projects">
-          <button className=" text-2xl text-orange-500 transition-all duration-500 hover:scale-110 hover:text-orange-600">
+          <button className=" text-2xl text-yellow-400 transition-all duration-500 hover:scale-110 hover:text-yellow-500">
             View All
           </button>
         </Link>

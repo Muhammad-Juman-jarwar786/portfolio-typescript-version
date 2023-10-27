@@ -1,25 +1,25 @@
-import { useFormik } from 'formik';
-import { useNavigate } from 'react-router-dom';
-import { signInSchema } from '../../validations/YupValidations';
-import '../Button.css';
+import { useFormik } from "formik";
+import { useNavigate } from "react-router-dom";
+import { signInSchema } from "../../validations/YupValidations";
+import "../Button.css";
 
 const Login = () => {
   const navigate = useNavigate();
 
   const formik = useFormik({
     initialValues: {
-      email: '',
-      password: '',
+      email: "",
+      password: "",
     },
     validationSchema: signInSchema,
     onSubmit: (values) => {
       if (
-        values.email == 'muhammad1juman@gmail.com' &&
-        values.password == 'muhammad1juman786'
+        values.email == "muhammad1juman@gmail.com" &&
+        values.password == "muhammad1juman786"
       ) {
-        navigate('/addproject');
+        navigate("/addproject");
       } else {
-        alert('Submit the correct Details Please');
+        alert("Submit the correct Details Please");
       }
     },
   });
@@ -41,14 +41,14 @@ const Login = () => {
             <input
               className={`shadow appearance-none border ${
                 formik.touched.email && formik.errors.email
-                  ? 'border-red-500'
-                  : 'border-gray-300'
-              } rounded w-full py-2 px-3 text-gray-50 font-bold bg-[#151030] leading-tight focus:outline-none focus:shadow-outline`}
+                  ? "border-red-500"
+                  : "border-gray-300"
+              } rounded-lg w-full py-4 px-3 text-gray-50 font-extrabold bg-[#151030] leading-tight focus:outline-none focus:shadow-outline`}
               id="email"
               type="email"
               autoComplete="true"
               placeholder="Enter your email"
-              {...formik.getFieldProps('email')}
+              {...formik.getFieldProps("email")}
               value={formik.values.email}
             />
             {formik.touched.email && formik.errors.email && (
@@ -59,7 +59,7 @@ const Login = () => {
           </div>
           <div className="mb-6">
             <label
-              className="block text-gray-50 text-xl font-bold mt-5 mb-2"
+              className="block text-gray-50 text-xl font-bold mt-8 mb-2"
               htmlFor="password"
             >
               Password
@@ -67,14 +67,14 @@ const Login = () => {
             <input
               className={`shadow appearance-none border ${
                 formik.touched.password && formik.errors.password
-                  ? 'border-red-500'
-                  : 'border-gray-300'
-              } rounded w-full py-2 px-3 text-gray-50 bg-[#151030] leading-tight focus:outline-none focus:shadow-outline`}
+                  ? "border-red-500"
+                  : "border-gray-300"
+              } rounded-lg w-full py-4 px-3 text-gray-50 font-extrabold bg-[#151030] leading-tight focus:outline-none focus:shadow-outline`}
               id="password"
               autoComplete="true"
               type="password"
               placeholder="Enter your password"
-              {...formik.getFieldProps('password')}
+              {...formik.getFieldProps("password")}
             />
             {formik.touched.password && formik.errors.password && (
               <p className="text-red-500 text-sm italic">

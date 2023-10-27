@@ -1,34 +1,34 @@
-import { useFormik } from 'formik';
-import emailjs from '@emailjs/browser';
+import { useFormik } from "formik";
+import emailjs from "@emailjs/browser";
 // import { useRef, useState } from 'react';
-import '../components/Button.css';
-import { ContactFormSchema } from '../validations/YupValidations';
-import { useState } from 'react';
+import "../components/Button.css";
+import { ContactFormSchema } from "../validations/YupValidations";
+import { useState } from "react";
 
 const ContactMe = () => {
   const [loading, setLoading] = useState(false);
 
   const formik = useFormik({
     initialValues: {
-      name: '',
-      email: '',
-      subject: '',
-      description: '',
+      name: "",
+      email: "",
+      subject: "",
+      description: "",
     },
     validationSchema: ContactFormSchema,
     onSubmit: (values) => {
       setLoading(true);
       emailjs
         .send(
-          'service_99f5gyk',
-          'template_tsx4cso',
+          "service_99f5gyk",
+          "template_tsx4cso",
           values,
-          '9w88iaI221xtgRlcq'
+          "9w88iaI221xtgRlcq"
         )
         .then(
           () => {
             setLoading(false);
-            alert('Thank you. I will get back to you as soon as possible.');
+            alert("Thank you. I will get back to you as soon as possible.");
 
             formik.resetForm();
           },
@@ -36,7 +36,7 @@ const ContactMe = () => {
             setLoading(false);
             console.error(error);
 
-            alert('Ahh, something went wrong. Please try again.');
+            alert("Ahh, something went wrong. Please try again.");
           }
         );
       formik.resetForm();
@@ -44,7 +44,7 @@ const ContactMe = () => {
   });
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#050816]">
+    <div className="flex justify-center items-center min-h-screen bg-[#050816] mt-20">
       <div className="bg-[#100D25] p-8 rounded-lg shadow-lg  mt-28 md:mt-0">
         <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
         <form
@@ -130,7 +130,7 @@ const ContactMe = () => {
             type="submit"
             className="btnSignIn bg-[#151030] hover: drop-shadow-lg text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-4 rounded-md shadow-md hover:bg-[#151040] mt-5"
           >
-            {loading ? 'Sending...' : 'Send'}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </div>

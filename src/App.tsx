@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 
 import {
   About,
@@ -10,12 +10,13 @@ import {
   Tech,
   Works,
   StarsCanvas,
-} from './components';
-import Login from './components/login/Login';
-import ProjectsShowCase from './pages/ProjectsShowCase';
-import AddProject from './components/projects/AddProject';
-import AboutMe from './pages/AboutMe';
-import ContactMe from './pages/ContactMe';
+} from "./components";
+import Login from "./components/login/Login";
+import ProjectsShowCase from "./pages/ProjectsShowCase";
+import AddProject from "./components/projects/AddProject";
+import AboutMe from "./pages/AboutMe";
+import ContactMe from "./pages/ContactMe";
+import FAQs from "./components/faqs/FAQs";
 
 const App = () => {
   return (
@@ -35,7 +36,8 @@ const App = () => {
               <Works />
               <Feedbacks />
               <div className="relative z-0">
-                <Contact />
+                {/* <Contact /> */}
+                <FAQs />
                 <StarsCanvas />
               </div>
             </div>
