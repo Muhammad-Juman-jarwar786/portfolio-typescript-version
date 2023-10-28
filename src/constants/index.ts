@@ -12,7 +12,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
-  // git,
+  git,
   figma,
   docker,
   meta,
@@ -102,11 +102,11 @@ const technologies = [
     icon: docker,
   },
   {
-    name: 'adobeillustrator',
+    name: "adobeillustrator",
     icon: adobeillustrator,
   },
   {
-    name: 'expressjs',
+    name: "expressjs",
     icon: expressjs,
   },
 ];
