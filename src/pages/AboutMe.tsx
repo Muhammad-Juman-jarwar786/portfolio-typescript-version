@@ -39,9 +39,6 @@ const AboutMe = () => {
             to life and achieve remarkable results.
           </motion.p>
         </div>
-        <div>
-          <img src="" alt="" />
-        </div>
       </div>
     </>
   );

@@ -13,10 +13,8 @@ import {
 } from "./components";
 import FAQs from "./components/faqs/FAQs";
 import Login from "./components/login/Login";
-import { ProjectsShowCase } from "./pages";
+import { ProjectsShowCase, AboutMe, ContactMe } from "./pages";
 import AddProject from "./components/projects/AddProject";
-import { AboutMe } from "./pages";
-import { ContactMe } from "./pages";
 
 const App = () => {
   return (
