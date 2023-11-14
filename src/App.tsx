@@ -13,9 +13,13 @@ import {
 } from "./components";
 import FAQs from "./components/faqs/FAQs";
 import Login from "./components/login/Login";
-import { ProjectsShowCase, AboutMe, ContactMe } from "./pages";
+import { ProjectsShowCase } from "./pages";
 import AddProject from "./components/projects/AddProject";
-
+import { AboutMe } from "./pages";
+import { ContactMe } from "./pages";
+import { PortfolioItems } from "./constants";
+import PortfolioListItem from "./components/items/PortfolioListItems";
+import { useState } from "react";
 
 const App = () => {
   return (
@@ -30,7 +34,6 @@ const App = () => {
                 <Hero />
               </div>
               <About />
-              {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg> */}
               <Experience />
               <Tech />
               <Works />
@@ -45,7 +48,36 @@ const App = () => {
         />
         <Route path="/about" element={<AboutMe />} />
         <Route path="/contact" element={<ContactMe />} />
-        <Route path="/projects" element={<ProjectsShowCase />} />
+        <Route
+          path="/projects"
+          element={
+            <>
+              <ProjectsShowCase />
+              <div className="flex flex-col">
+                <div className="flex xl:flex-row flex-col h-full">
+                  <div className="flex flex-col">
+                    {PortfolioItems.map((item, idx) => (
+                      <PortfolioListItem
+                        key={idx}
+                        title={item.title}
+                        description={item.description}
+                        services={item.services}
+                        techologies={item.techologies}
+                        images={item.images}
+                        isLast={idx >= PortfolioItems.length - 1}
+                        year={item.year}
+                        startYear={item.startYear}
+                        subSystems={item.subSystems}
+                        logo={item.logo}
+                        titleFont={item.titleFont}
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </>
+          }
+        />
         <Route path="/addproject" element={<AddProject />} />
         <Route path="/login" element={<Login />} />
       </Routes>
