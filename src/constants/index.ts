@@ -27,6 +27,8 @@ import {
   threejs,
   adobeillustrator,
   expressjs,
+  image1,
+  image2,
 } from "../assets";
 
 const services = [
@@ -749,5 +751,29 @@ export const TechnologyItems: TechnologyInterface[] = [
     title: "ClickHouse",
     icon: "clickHouse",
     svg: "clickhouse.svg",
+  },
+];
+
+export interface AboutUsFirstSliderCardInterface {
+  title: string;
+  paragraphs: string[];
+  image: string;
+}
+
+export const AboutUsFirstSliderCard: AboutUsFirstSliderCardInterface[] = [
+  {
+    title: "Overview",
+    paragraphs: [
+      "BitsPro is a small team of committed individuals focusing on building people-literate technologies. We help startups in building Multiexperience based MVPs leveraging various modalities, digital touchpoints, apps, and devices to design and develop a seamless experience for their customers.",
+      "Our process is driven by a proven MVP Development Framework and powered by passionate people who are committed to delivery and excellence.",
+    ],
+    image: image1,
+  },
+  {
+    title: "Specialties",
+    paragraphs: [
+      "Multiexperience Solutions, MXDP, Mobile Application Development, Website & Web Application Development, Cloud Infrastructure Management, Mobile VR App Development, Augmented Reality App Development, Data Engineering, Machine Learning, Business Process Automation, and Automation Testing",
+    ],
+    image: image2,
   },
 ];
