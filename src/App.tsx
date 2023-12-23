@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import {
   About,
-  Contact,
+  // Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -17,6 +17,11 @@ import { ProjectsShowCase } from "./pages";
 import AddProject from "./components/projects/AddProject";
 import { AboutMe } from "./pages";
 import { ContactMe } from "./pages";
+<<<<<<< Updated upstream
+=======
+import { PortfolioItems } from "./constants";
+import PortfolioListItem from "./components/items/PortfolioListItems";
+>>>>>>> Stashed changes
 
 const App = () => {
   return (
