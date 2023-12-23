@@ -2,6 +2,7 @@ import { Sticky, StickyContainer } from "react-sticky";
 import { PortfolioListItem } from "../../constants";
 import { ServiceList, TechnologyList } from "../list";
 import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const PortfolioListItems: React.FC<PortfolioListItem> = ({
   images,
