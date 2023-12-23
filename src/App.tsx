@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import {
   About,
-  // Contact,
+  Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -17,17 +17,9 @@ import { ProjectsShowCase } from "./pages";
 import AddProject from "./components/projects/AddProject";
 import { AboutMe } from "./pages";
 import { ContactMe } from "./pages";
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-import { PortfolioItems } from "./constants";
-import PortfolioListItem from "./components/items/PortfolioListItems";
->>>>>>> Stashed changes
-=======
 import { PortfolioItems } from "./constants";
 import PortfolioListItem from "./components/items/PortfolioListItems";
 import { useState } from "react";
->>>>>>> d769d5aa976a1883e9374035fbefd6f646be1075
 
 const App = () => {
   return (
