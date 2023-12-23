@@ -2,7 +2,6 @@ import { Route, Routes } from "react-router-dom";
 
 import {
   About,
-  Contact,
   Experience,
   Feedbacks,
   Hero,
@@ -19,7 +18,6 @@ import { AboutMe } from "./pages";
 import { ContactMe } from "./pages";
 import { PortfolioItems } from "./constants";
 import PortfolioListItem from "./components/items/PortfolioListItems";
-import { useState } from "react";
 
 const App = () => {
   return (
