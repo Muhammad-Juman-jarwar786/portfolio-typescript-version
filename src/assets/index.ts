@@ -27,12 +27,14 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import carrent from './carrent.png';
-import jobit from './jobit.png';
-import tripguide from './tripguide.png';
-import websitetoshow from './websitetoshow.jpg';
-import dashboard from './dashboard.jpg';
-import MyPic from './ProfilePic.png'
+import carrent from "./carrent.png";
+import jobit from "./jobit.png";
+import tripguide from "./tripguide.png";
+import websitetoshow from "./websitetoshow.jpg";
+import dashboard from "./dashboard.jpg";
+import MyPic from "./ProfilePic.png";
+import image1 from "./About/image-1.png";
+import image2 from "./About/image-2.png";
 
 export {
   logo,
@@ -68,5 +70,7 @@ export {
   dashboard,
   adobeillustrator,
   expressjs,
-  MyPic
+  MyPic,
+  image1,
+  image2,
 };
