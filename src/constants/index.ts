@@ -406,6 +406,154 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
     ],
   },
+  {
+    title: "Justuno",
+    images: [{ url: carrent }, { url: carrent }, { url: carrent }],
+    description: `<p class="mb-4">
+    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
+    The fastest way to increase sales, lower costs, and hit your goals.     
+  </p>
+  <p>
+    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
+    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
+    audience and build the foundation for segmented marketing experiences designed to convert.
+  </p>`,
+    services: ["001", "002"],
+    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    startYear: "2018",
+    logo: "/images/portfolio/justuno/logo.svg",
+    isHomePage: true,
+    subSystems: [
+      {
+        title: "Design Canvas",
+        images: [{ url: carrent }, { url: carrent }],
+        description: `<p class="mb-4">
+        Beatufiully designed <b>AD Popup creator</b> for 
+        <a
+          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+          href="https://www.justuno.com"
+        >
+          www.justuno.com
+        </a>
+        , Design Canvas does provide both designers and non-techical
+        persons the ability to create seamless ad popups that can be
+        integrated to the system using justuno.com.
+      </p>
+      <p>
+        With the Design Canvas a user can intuitively create any type of
+        popup with our vast list of plugins and components.
+      </p>`,
+        services: ["001", "002", "004"],
+        techologies: ["react", "golang", "sass"],
+        year: "2023",
+      },
+      {
+        title: "Workflow Builder",
+        images: [
+          { url: "/images/portfolio/justuno/workflow-builder.png" },
+          { url: "/images/portfolio/justuno/workflow-builder.png" },
+        ],
+        description: `<p class="mb-4">
+        The workflow builder is very simple tool that allows the user to 
+        create process visually which in the background truns in to 
+        a configuration that is used to execute those process.
+        
+        
+        Designed for 
+        <a
+          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+          href="https://www.justuno.com"
+        >
+          www.justuno.com
+        </a>
+        , Workflow Builder serves as a core tool to determine how and when 
+        Ads would appear on the customer sites. Specifically with Workflow Builder
+        the user determin different ads based on the customer activities.
+      </p>
+      <p>
+        With the Design Canvas a user can intuitively create any type of
+        popup with our vast list of plugins and components.
+      </p>`,
+        services: ["001", "002", "004"],
+        techologies: ["react", "golang", "sass"],
+        year: "2023",
+      },
+    ],
+  },
+  {
+    title: "Justuno",
+    images: [{ url: carrent }, { url: carrent }, { url: carrent }],
+    description: `<p class="mb-4">
+    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
+    The fastest way to increase sales, lower costs, and hit your goals.     
+  </p>
+  <p>
+    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
+    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
+    audience and build the foundation for segmented marketing experiences designed to convert.
+  </p>`,
+    services: ["001", "002"],
+    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    startYear: "2018",
+    logo: "/images/portfolio/justuno/logo.svg",
+    isHomePage: true,
+    subSystems: [
+      {
+        title: "Design Canvas",
+        images: [{ url: carrent }, { url: carrent }],
+        description: `<p class="mb-4">
+        Beatufiully designed <b>AD Popup creator</b> for 
+        <a
+          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+          href="https://www.justuno.com"
+        >
+          www.justuno.com
+        </a>
+        , Design Canvas does provide both designers and non-techical
+        persons the ability to create seamless ad popups that can be
+        integrated to the system using justuno.com.
+      </p>
+      <p>
+        With the Design Canvas a user can intuitively create any type of
+        popup with our vast list of plugins and components.
+      </p>`,
+        services: ["001", "002", "004"],
+        techologies: ["react", "golang", "sass"],
+        year: "2023",
+      },
+      {
+        title: "Workflow Builder",
+        images: [
+          { url: "/images/portfolio/justuno/workflow-builder.png" },
+          { url: "/images/portfolio/justuno/workflow-builder.png" },
+        ],
+        description: `<p class="mb-4">
+        The workflow builder is very simple tool that allows the user to 
+        create process visually which in the background truns in to 
+        a configuration that is used to execute those process.
+        
+        
+        Designed for 
+        <a
+          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+          href="https://www.justuno.com"
+        >
+          www.justuno.com
+        </a>
+        , Workflow Builder serves as a core tool to determine how and when 
+        Ads would appear on the customer sites. Specifically with Workflow Builder
+        the user determin different ads based on the customer activities.
+      </p>
+      <p>
+        With the Design Canvas a user can intuitively create any type of
+        popup with our vast list of plugins and components.
+      </p>`,
+        services: ["001", "002", "004"],
+        techologies: ["react", "golang", "sass"],
+        year: "2023",
+      },
+    ],
+  },
 ];
 
 export interface IconTitleInterface {

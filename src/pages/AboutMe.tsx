@@ -25,7 +25,7 @@ const AboutMe = () => {
         </h2>
         <div className="ml-5 mr-5 md:ml-10 md:mr-60 lg:ml-20 lg:mr-[35rem]">
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 text-yellow-500 text-left">
-            What I do
+            What I do ?
           </h1>
           <div className="text-md lg:text-xl font-sans mt-3 lg:mt-10 text-gray-300 text-justify">
             <p>
@@ -37,7 +37,7 @@ const AboutMe = () => {
             <p>
               <span className="text-yellow-500 text-lg lg:text-2xl">
                 My Beginning:
-              </span>{" "}
+              </span>
               My professional journey took off as an intern at BitsPro. This
               experience allowed me to dive deep into the world of software
               development, providing me with a strong foundation and a wealth of
@@ -47,7 +47,7 @@ const AboutMe = () => {
             <p>
               <span className="text-yellow-500 text-lg lg:text-2xl">
                 My Expertise:
-              </span>{" "}
+              </span>
               Specializing in creating user-friendly interfaces, I focus on
               performance, responsiveness, and accessibility. I am proficient in
               a variety of technologies and tools, always staying updated with
@@ -57,7 +57,7 @@ const AboutMe = () => {
             <p>
               <span className="text-yellow-500 text-lg lg:text-2xl">
                 My Transition:
-              </span>{" "}
+              </span>
               Currently, I am expanding my horizons towards full-stack and MERN
               stack development. This includes mastering back-end technologies,
               database management, and cloud computing, enabling me to provide
@@ -67,7 +67,7 @@ const AboutMe = () => {
             <p>
               <span className="text-yellow-500 text-lg lg:text-2xl">
                 My Projects:
-              </span>{" "}
+              </span>
               I have had the opportunity to work on a diverse range of projects.
               Each project has been a new challenge, pushing me to learn and
               grow.
@@ -76,7 +76,7 @@ const AboutMe = () => {
             <p>
               <span className="text-yellow-500 text-lg lg:text-2xl">
                 My Commitment:
-              </span>{" "}
+              </span>
               I am dedicated to delivering excellence in all my endeavors. If
               you’re seeking a passionate developer who is constantly pushing
               the boundaries of technology, feel free to reach out. Let’s create
@@ -88,16 +88,18 @@ const AboutMe = () => {
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 text-yellow-500 text-center">
           Way I do It
         </h1>
-        <div className="w-full flex flex-col">
+        <div className="w-full flex flex-col mt-5 lg:mt-10">
           <HowWeDo />
         </div>
         {/* </div> */}
-        <h1>Who am I ?</h1>
-        <div className="grid lg:grid-cols-3 gap-0 h-[77vh]">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 xl:-mt-10 2xl:mt-10 text-yellow-500 text-center">
+          Who am I ?
+        </h1>
+        <div className="grid lg:grid-cols-3 gap-0 h-[77dvh] sm:h-[50vh] md:h-[50dvh] xl:h-[30dvh] mt-2 lg:mt-5">
           <motion.div variants={textVariant(1000)} className="lg:col-span-1">
             <div className="flex justify-center ">
               <img
-                className="w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-4 lg:border-8 border-[#915EFF] rounded-full"
+                className="w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-4 lg:border-spacing-7 border-[#915EFF] rounded-full"
                 src={MyPic}
                 alt=""
               />
