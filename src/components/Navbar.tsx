@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { logo, menu, close } from "../assets";
+import { logo } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -84,17 +84,36 @@ const Navbar = () => {
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
+          {/* <img
             src={toggle ? close : menu}
             alt="menu"
             className="w-[28px] h-[28px] object-contain"
             onClick={() => setToggle(!toggle)}
-          />
+          /> */}
+          <div className="w-[38px] h-[28px]" onClick={() => setToggle(!toggle)}>
+            <div
+              className={` ${
+                !toggle
+                  ? "w-[18px] h-[2.8px] bg-white rounded-md ml-[14px] opacity-100"
+                  : "opacity-0 w-0 h-0"
+              } transition-all duration-1000 ease-in-out`}
+            ></div>
+            <div
+              className={` ${
+                !toggle ? " mt-[6px] " : "rotate-[135deg] mt-3 "
+              } transition-all duration-700 ease-in-out rounded-md bg-white w-8 h-[2.8px]`}
+            ></div>
+            <div
+              className={` ${
+                !toggle ? " mt-[6px]" : "rotate-[-135deg]  mt-[-2.5px]"
+              } transition-all duration-700 ease-in-out rounded-md bg-white w-8 h-[2.8px]`}
+            ></div>
+          </div>
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 black-gradient absolute top-0 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               <li
