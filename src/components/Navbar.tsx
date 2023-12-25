@@ -39,6 +39,9 @@ const Navbar = () => {
           onClick={() => {
             setActive("");
             window.scrollTo(0, 0);
+            if (toggle == true) {
+              setToggle(!toggle);
+            }
           }}
         >
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
@@ -84,12 +87,6 @@ const Navbar = () => {
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
-          {/* <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain"
-            onClick={() => setToggle(!toggle)}
-          /> */}
           <div className="w-[38px] h-[28px]" onClick={() => setToggle(!toggle)}>
             <div
               className={` ${
@@ -112,55 +109,59 @@ const Navbar = () => {
 
           <div
             className={`${
-              !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-0 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+              !toggle
+                ? "w-0 h-[100vh] absolute top-16 right-0 my-0 p-0"
+                : "p-6 black-gradient absolute top-16 right-0 my-2 w-full h-[100vh]"
+            }  z-10 transition-all duration-500 ease-in-out rounded-xl`}
           >
-            <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "about" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive("about");
-                }}
-              >
-                <Link to="/about">About</Link>
-              </li>
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "work" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive("work");
-                }}
-              >
-                <Link to="/projects">Work</Link>
-              </li>
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "contact" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive("contact");
-                }}
-              >
-                <Link to="/contact">Contact</Link>
-              </li>
-              <li
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                  active === "login" ? "text-white" : "text-secondary"
-                }`}
-                onClick={() => {
-                  setToggle(!toggle);
-                  setActive("login");
-                }}
-              >
-                <Link to="/login">Admin Login</Link>
-              </li>
-            </ul>
+            {toggle && (
+              <ul className="list-none flex mt-20 items-center flex-1 flex-col gap-4">
+                <li
+                  className={`font-poppins font-semibold cursor-pointer text-[20px] ${
+                    active === "about" ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive("about");
+                  }}
+                >
+                  <Link to="/about">About</Link>
+                </li>
+                <li
+                  className={`font-poppins font-semibold cursor-pointer text-[20px] ${
+                    active === "work" ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive("work");
+                  }}
+                >
+                  <Link to="/projects">Work</Link>
+                </li>
+                <li
+                  className={`font-poppins font-semibold cursor-pointer text-[20px] ${
+                    active === "contact" ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive("contact");
+                  }}
+                >
+                  <Link to="/contact">Contact</Link>
+                </li>
+                <li
+                  className={`font-poppins font-semibold cursor-pointer text-[20px] ${
+                    active === "login" ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive("login");
+                  }}
+                >
+                  <Link to="/login">Admin Login</Link>
+                </li>
+              </ul>
+            )}
           </div>
         </div>
       </div>
