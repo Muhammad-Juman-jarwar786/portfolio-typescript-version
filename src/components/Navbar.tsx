@@ -54,6 +54,14 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row gap-10">
           <li
             className={`${
+              active === "" ? "text-white" : "text-secondary"
+            } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
+            onClick={() => setActive("")}
+          >
+            <Link to="/">Home</Link>
+          </li>
+          <li
+            className={`${
               active === "about" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
             onClick={() => setActive("about")}
@@ -76,14 +84,14 @@ const Navbar = () => {
           >
             <Link to="/contact">Contact</Link>
           </li>
-          <li
+          {/* <li
             className={`${
               active === "login" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
             onClick={() => setActive("login")}
           >
             <Link to="/login">Admin Login</Link>
-          </li>
+          </li> */}
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -118,6 +126,17 @@ const Navbar = () => {
               <ul className="list-none flex mt-20 items-center flex-1 flex-col gap-4">
                 <li
                   className={`font-poppins font-semibold cursor-pointer text-[20px] ${
+                    active === "" ? "text-white" : "text-secondary"
+                  }`}
+                  onClick={() => {
+                    setToggle(!toggle);
+                    setActive("");
+                  }}
+                >
+                  <Link to="/">Home</Link>
+                </li>
+                <li
+                  className={`font-poppins font-semibold cursor-pointer text-[20px] ${
                     active === "about" ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
@@ -149,7 +168,7 @@ const Navbar = () => {
                 >
                   <Link to="/contact">Contact</Link>
                 </li>
-                <li
+                {/* <li
                   className={`font-poppins font-semibold cursor-pointer text-[20px] ${
                     active === "login" ? "text-white" : "text-secondary"
                   }`}
@@ -159,7 +178,7 @@ const Navbar = () => {
                   }}
                 >
                   <Link to="/login">Admin Login</Link>
-                </li>
+                </li> */}
               </ul>
             )}
           </div>

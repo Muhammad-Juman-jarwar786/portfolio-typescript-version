@@ -11,9 +11,9 @@ import {
   StarsCanvas,
 } from "./components";
 import FAQs from "./components/faqs/FAQs";
-import Login from "./components/login/Login";
+// import Login from "./components/login/Login";
 import { ProjectsShowCase } from "./pages";
-import AddProject from "./components/projects/AddProject";
+// import AddProject from "./components/projects/AddProject";
 import { AboutMe } from "./pages";
 import { ContactMe } from "./pages";
 import { PortfolioItems } from "./constants";
@@ -50,8 +50,8 @@ const App = () => {
           path="/projects"
           element={
             <>
-              <ProjectsShowCase />
-              <div className="flex flex-col">
+              {/* <ProjectsShowCase /> */}
+              <div className="flex flex-col mt-20 lg:mt-28 overflow-x-hidden">
                 <div className="flex xl:flex-row flex-col h-full">
                   <div className="flex flex-col">
                     {PortfolioItems.map((item, idx) => (
@@ -76,8 +76,8 @@ const App = () => {
             </>
           }
         />
-        <Route path="/addproject" element={<AddProject />} />
-        <Route path="/login" element={<Login />} />
+        {/* <Route path="/addproject" element={<AddProject />} /> */}
+        {/* <Route path="/login" element={<Login />} /> */}
       </Routes>
     </>
   );
