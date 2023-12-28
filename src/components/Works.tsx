@@ -118,8 +118,8 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant(1000)}>
-        <p className={`${styles.sectionSubText} mt-20`}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
+        <h2 className={`${styles.sectionHeadText} mt-20`}>Projects.</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -138,7 +138,7 @@ const Works = () => {
       <div className="mt-20 flex flex-wrap gap-7 items-center justify-center">
         {Array.isArray(projectsData) && projectsData.length > 0 ? (
           projectsData
-            .slice(0, 4)
+            .slice(0, 6)
             .map((project: any, index) => (
               <ProjectCard
                 key={`project-${index}`}
@@ -151,10 +151,10 @@ const Works = () => {
         )}
       </div>
 
-      <div className="text-center mt-10">
+      <div className="text-center sm-text-right mt-10 lg-mr-[12rem]">
         <Link to="/projects">
           <button className=" text-2xl text-yellow-400 transition-all duration-500 hover:scale-110 hover:text-yellow-500">
-            View All
+            View All <i className="ml-2 fa-light fa-arrow-right"></i>
           </button>
         </Link>
       </div>
