@@ -44,9 +44,9 @@ const ContactMe = () => {
   });
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#050816] mt-20">
+    <div className="flex justify-center items-center min-h-screen bg-[#050816] mt-10 lg:pt-28">
       <div className="bg-[#100D25] p-8 rounded-lg shadow-lg  mt-28 md:mt-0">
-        <h2 className="text-3xl font-bold mb-4">Get in touch</h2>
+        <h2 className="text-3xl font-bold mb-4 text-center">Get in touch</h2>
         <form
           onSubmit={formik.handleSubmit}
           className="space-y-4 w-[80vw] lg:w-[40vw]"
@@ -128,7 +128,7 @@ const ContactMe = () => {
           </div>
           <button
             type="submit"
-            className="btnSignIn bg-[#151030] hover: drop-shadow-lg text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-4 rounded-md shadow-md hover:bg-[#151040] mt-5"
+            className="btnSignIn bg-[#050816]  hover: drop-shadow-2xl shadow-inner w-40 text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-5 rounded-md  hover:bg-[#151040] mt-5"
           >
             {loading ? "Sending..." : "Send"}
           </button>

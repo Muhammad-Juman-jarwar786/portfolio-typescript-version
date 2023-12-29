@@ -56,7 +56,13 @@ const Navbar = () => {
             className={`${
               active === "" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
-            onClick={() => setActive("")}
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+              if (toggle == true) {
+                setToggle(!toggle);
+              }
+            }}
           >
             <Link to="/">Home</Link>
           </li>
@@ -64,7 +70,13 @@ const Navbar = () => {
             className={`${
               active === "about" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
-            onClick={() => setActive("about")}
+            onClick={() => {
+              setActive("about");
+              window.scrollTo(0, 0);
+              if (toggle == true) {
+                setToggle(!toggle);
+              }
+            }}
           >
             <Link to="/about">About</Link>
           </li>
@@ -72,7 +84,13 @@ const Navbar = () => {
             className={`${
               active === "work" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
-            onClick={() => setActive("work")}
+            onClick={() => {
+              setActive("work");
+              window.scrollTo(0, 0);
+              if (toggle == true) {
+                setToggle(!toggle);
+              }
+            }}
           >
             <Link to="/projects">Work</Link>
           </li>
@@ -80,7 +98,13 @@ const Navbar = () => {
             className={`${
               active === "contact" ? "text-white" : "text-secondary"
             } hover:text-yellow-400 text-[18px] font-medium cursor-pointer transition-all duration-500 hover:scale-105`}
-            onClick={() => setActive("contact")}
+            onClick={() => {
+              setActive("contact");
+              window.scrollTo(0, 0);
+              if (toggle == true) {
+                setToggle(!toggle);
+              }
+            }}
           >
             <Link to="/contact">Contact</Link>
           </li>
@@ -129,8 +153,9 @@ const Navbar = () => {
                     active === "" ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
                     setActive("");
+                    setToggle(!toggle);
+                    window.scrollTo(0, 0);
                   }}
                 >
                   <Link to="/">Home</Link>
@@ -140,8 +165,9 @@ const Navbar = () => {
                     active === "about" ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
                     setActive("about");
+                    setToggle(!toggle);
+                    window.scrollTo(0, 0);
                   }}
                 >
                   <Link to="/about">About</Link>
@@ -151,8 +177,9 @@ const Navbar = () => {
                     active === "work" ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
                     setActive("work");
+                    setToggle(!toggle);
+                    window.scrollTo(0, 0);
                   }}
                 >
                   <Link to="/projects">Work</Link>
@@ -162,8 +189,9 @@ const Navbar = () => {
                     active === "contact" ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
-                    setToggle(!toggle);
                     setActive("contact");
+                    setToggle(!toggle);
+                    window.scrollTo(0, 0);
                   }}
                 >
                   <Link to="/contact">Contact</Link>

@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { EarthCanvas } from "..";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
+import { motion } from "framer-motion";
+import { styles } from "../../styles";
+import { textVariant } from "../../utils/motion";
 
 export interface WantedListInterface {
   id: number;
@@ -65,7 +67,10 @@ const FAQs = () => {
   };
   return (
     <div className="grid lg:flex w-full ">
-      <div className="flex flex-col mx-auto w-[95vw] lg:w-[50vw] lg:mt-20 mt-10">
+      <div className="flex flex-col mx-auto w-[95vw] lg:w-[50vw] mt-10 lg:mt-20">
+        <motion.div variants={textVariant(1000)}>
+          <h2 className={styles.sectionHeadText}>FAQs</h2>
+        </motion.div>
         {WantedList.map((item: any, idx: number) => (
           <div key={idx} className="group">
             <div

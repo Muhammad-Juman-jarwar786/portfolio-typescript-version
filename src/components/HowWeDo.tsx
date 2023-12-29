@@ -14,7 +14,7 @@ const SliderImages: React.FC<{ image: string; title: string }> = ({
     <img
       src={image}
       alt={title}
-      className="w-full object-contain object-center"
+      className="w-full object-contain object-center lg:mx-1"
     />
   );
 };
@@ -46,7 +46,7 @@ const HowWeDo: React.FC = () => {
   };
 
   return (
-    <div className="h-[80vh] w-full min-h-[850px] relative overflow-hidden text-gray-900 text-9xl xl:text-[12vw]">
+    <div className="h-[80vh] w-full min-h-[850px] lg:mx-36 relative overflow-hidden text-gray-900 text-9xl xl:text-[12vw]">
       <Slider
         {...imageSettings}
         className="w-[100dvw] md:w-[75dvw] lg:w-[60dvw] xl:w-[43dvw]"
@@ -58,7 +58,7 @@ const HowWeDo: React.FC = () => {
           </div>
         ))}
       </Slider>
-      <div className="absolute bottom-0 right-2.5 md:bottom-10 md:right-10 lg:bottom-[12rem] xl:bottom-[22%] lg:right-20 xl:right-[18%] 2xl:right-[20%] bg-[#2C2C2B] text-white w-[95dvw] md:w-[28rem] lg:w-[25rem] xl:lg:w-[30rem] 2xl:w-[769px] h-[21rem] md:h-[15rem] lg:h-[20rem] xl:h-[25rem] 2xl:h-[31.5rem] rounded-lg lg:rounded-none">
+      <div className="absolute bottom-0 right-2.5 md:bottom-10 md:right-10 lg:bottom-[12rem] xl:bottom-[22%] lg:right-20 xl:right-[18%] 2xl:right-[20%] bg-[#1d1836] text-white w-[95dvw] md:w-[28rem] lg:w-[25rem] xl:lg:w-[30rem] 2xl:w-[769px] h-[21rem] md:h-[15rem] lg:h-[20rem] xl:h-[25rem] 2xl:h-[31.5rem] rounded-lg lg:rounded-none">
         <Carousel
           className=""
           selectedItem={tracker}

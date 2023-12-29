@@ -23,8 +23,8 @@ const AboutMe = () => {
         <h2 className={`${styles.sectionHeadText} lg:text-8xl text-[#915EFF]`}>
           About Me
         </h2>
-        <div className="ml-5 mr-5 md:ml-10 md:mr-60 lg:ml-20 lg:mr-[35rem]">
-          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 text-yellow-500 text-left">
+        <div className="  lg:mx-60 mx-10 md:mx-36 text-center">
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 text-yellow-500 text-center">
             What I do ?
           </h1>
           <div className="text-md lg:text-xl font-sans mt-3 lg:mt-10 text-gray-300 text-justify">
@@ -88,7 +88,7 @@ const AboutMe = () => {
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 text-yellow-500 text-center">
           Way I do It
         </h1>
-        <div className="w-full flex flex-col mt-5 lg:mt-10">
+        <div className="w-full flex flex-col  mt-5 lg:mt-10 overflow-hidden">
           <HowWeDo />
         </div>
         {/* </div> */}
@@ -99,7 +99,7 @@ const AboutMe = () => {
           <motion.div variants={textVariant(1000)} className="lg:col-span-1">
             <div className="flex justify-center ">
               <img
-                className="w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-4 lg:border-spacing-7 border-[#915EFF] rounded-full"
+                className="w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-8 object-cover lg:border-spacing-7 border-[#ffffff] rounded-full"
                 src={MyPic}
                 alt=""
               />

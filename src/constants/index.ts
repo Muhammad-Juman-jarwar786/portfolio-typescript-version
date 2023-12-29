@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  photoshop,
   meta,
   starbucks,
   tesla,
@@ -68,6 +68,22 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "adobeillustrator",
+    icon: adobeillustrator,
+  },
+  {
+    name: "photoshop",
+    icon: photoshop,
+  },
+  {
+    name: "expressjs",
+    icon: expressjs,
+  },
+  {
+    name: "figma",
+    icon: figma,
+  },
+  {
     name: "React JS",
     icon: reactjs,
   },
@@ -94,22 +110,6 @@ const technologies = [
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "photoshop",
-    icon: docker,
-  },
-  {
-    name: "adobeillustrator",
-    icon: adobeillustrator,
-  },
-  {
-    name: "expressjs",
-    icon: expressjs,
   },
 ];
 
