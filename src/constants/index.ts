@@ -29,6 +29,11 @@ import {
   expressjs,
   image1,
   image2,
+  ecommerce,
+  movie,
+  natours,
+  nextjs,
+  poultry,
 } from "../assets";
 
 const services = [
@@ -335,11 +340,11 @@ export const PortfolioItems: PortfolioListItem[] = [
   {
     title: "Justuno",
     images: [{ url: carrent }, { url: carrent }, { url: carrent }],
-    description: `<p class="mb-4">
+    description: `<p class="mb-4 text-gray-900">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
-  <p>
+  <p class="text-gray-900">
     Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
     subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
     audience and build the foundation for segmented marketing experiences designed to convert.
@@ -353,7 +358,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       {
         title: "Design Canvas",
         images: [{ url: carrent }, { url: carrent }],
-        description: `<p class="mb-4">
+        description: `<p class="mb-4 text-gray-900">
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
@@ -365,7 +370,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         persons the ability to create seamless ad popups that can be
         integrated to the system using justuno.com.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -379,7 +384,7 @@ export const PortfolioItems: PortfolioListItem[] = [
           { url: "/images/portfolio/justuno/workflow-builder.png" },
           { url: "/images/portfolio/justuno/workflow-builder.png" },
         ],
-        description: `<p class="mb-4">
+        description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
         a configuration that is used to execute those process.
@@ -396,7 +401,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         Ads would appear on the customer sites. Specifically with Workflow Builder
         the user determin different ads based on the customer activities.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -409,11 +414,11 @@ export const PortfolioItems: PortfolioListItem[] = [
   {
     title: "Justuno",
     images: [{ url: carrent }, { url: carrent }, { url: carrent }],
-    description: `<p class="mb-4">
+    description: `<p class="mb-4 text-gray-900">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
-  <p>
+  <p class="text-gray-900">
     Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
     subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
     audience and build the foundation for segmented marketing experiences designed to convert.
@@ -427,7 +432,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       {
         title: "Design Canvas",
         images: [{ url: carrent }, { url: carrent }],
-        description: `<p class="mb-4">
+        description: `<p class="mb-4 text-gray-900">
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
@@ -439,7 +444,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         persons the ability to create seamless ad popups that can be
         integrated to the system using justuno.com.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -453,7 +458,7 @@ export const PortfolioItems: PortfolioListItem[] = [
           { url: "/images/portfolio/justuno/workflow-builder.png" },
           { url: "/images/portfolio/justuno/workflow-builder.png" },
         ],
-        description: `<p class="mb-4">
+        description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
         a configuration that is used to execute those process.
@@ -470,7 +475,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         Ads would appear on the customer sites. Specifically with Workflow Builder
         the user determin different ads based on the customer activities.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -483,11 +488,11 @@ export const PortfolioItems: PortfolioListItem[] = [
   {
     title: "Justuno",
     images: [{ url: carrent }, { url: carrent }, { url: carrent }],
-    description: `<p class="mb-4">
+    description: `<p class="mb-4 text-gray-900">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
-  <p>
+  <p class="text-gray-900">
     Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
     subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
     audience and build the foundation for segmented marketing experiences designed to convert.
@@ -501,7 +506,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       {
         title: "Design Canvas",
         images: [{ url: carrent }, { url: carrent }],
-        description: `<p class="mb-4">
+        description: `<p class="mb-4 text-gray-900">
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
@@ -513,7 +518,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         persons the ability to create seamless ad popups that can be
         integrated to the system using justuno.com.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -523,11 +528,8 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
       {
         title: "Workflow Builder",
-        images: [
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-        ],
-        description: `<p class="mb-4">
+        images: [{ url: carrent }, { url: carrent }],
+        description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
         a configuration that is used to execute those process.
@@ -544,7 +546,7 @@ export const PortfolioItems: PortfolioListItem[] = [
         Ads would appear on the customer sites. Specifically with Workflow Builder
         the user determin different ads based on the customer activities.
       </p>
-      <p>
+      <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of
         popup with our vast list of plugins and components.
       </p>`,
@@ -923,5 +925,113 @@ export const AboutUsFirstSliderCard: AboutUsFirstSliderCardInterface[] = [
       "Multiexperience Solutions, MXDP, Mobile Application Development, Website & Web Application Development, Cloud Infrastructure Management, Mobile VR App Development, Augmented Reality App Development, Data Engineering, Machine Learning, Business Process Automation, and Automation Testing",
     ],
     image: image2,
+  },
+];
+
+export interface ProjectShowCaseInterface {
+  id: number;
+  description: string;
+  githubLink: string;
+  imageUrl: string;
+  name: string;
+  tagcolor1: string;
+  tagcolor2: string;
+  tagcolor3: string;
+  tagname1: string;
+  tagname2: string;
+  tagname3: string;
+  websiteLink: string;
+}
+
+export const ProjectShowCase: ProjectShowCaseInterface[] = [
+  {
+    id: 1,
+    description:
+      "React Admin Dashboard: A dynamic, responsive, and user-friendly dashboard built with React.js. Features include real-time data visualization, modular components, customizable layouts, and API integration. Demonstrates proficiency in modern front-end technologies and commitment to efficient, user-centric design.",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar/Dashboard-react",
+    imageUrl: dashboard,
+    name: "Admin Dashboard",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "Reactjs",
+    tagname2: "Javascript",
+    tagname3: "Materialui",
+    websiteLink: "https://dashboard-react-admin-website.netlify.app/",
+  },
+  {
+    id: 2,
+    description:
+      "A sleek and user-friendly website designed for movie enthusiasts. Features include a vast movie database, user ratings and reviews, personalized recommendations, and seamless streaming capabilities just like Netflix. Showcases a commitment to providing an engaging and immersive movie viewing experience.",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar786/Movie-Website",
+    imageUrl: movie,
+    name: "Movie Website Design",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "Reactjs",
+    tagname2: "Tailwindcss",
+    tagname3: "Typescript",
+    websiteLink: "https://movie-website-design1.netlify.app/",
+  },
+  {
+    id: 3,
+    description:
+      "A comprehensive e-commerce platform built with modern technologies. Features include a user-friendly interface, secure payment gateway, efficient ‘Add to Cart’ functionality, and state management with Redux Toolkit. Designed to provide a seamless online shopping experience, mirroring all the facilities of a typical e-commerce website.",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar786/Eccomerce-website",
+    imageUrl: ecommerce,
+    name: "Ecommerce Website",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "Reactjs",
+    tagname2: "Tailwindcss",
+    tagname3: "Animejs",
+    websiteLink: "https://e-commerce-website0.netlify.app/",
+  },
+  {
+    id: 4,
+    description:
+      "A Software designed basically for Poultry Farm Management System. Features include a user-friendly and Responsive interface, secure payment gateway, efficient reports and invoice generation techniques, effective daily reports and state management with Redux Toolkit. Designed to run the farm efficiently and effectively.",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar/PoultryFarm",
+    imageUrl: poultry,
+    name: "Poultry Farm System",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "ReactTs",
+    tagname2: "Charts",
+    tagname3: "Tailwindcss",
+    websiteLink: "https://poultryfarm-management-system.web.app/",
+  },
+  {
+    id: 5,
+    description:
+      "An immersive tour booking platform designed with modern web technologies. Features include a variety of tour options, secure booking and payment system, user reviews, and a visually appealing interface. Demonstrates a commitment to providing a seamless and engaging user experience in the travel and tourism sector.",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar/Natours-Project",
+    imageUrl: natours,
+    name: "Natours",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "Javascript",
+    tagname2: "Html",
+    tagname3: "css",
+    websiteLink: "https://natours-project0.netlify.app/",
+  },
+  {
+    id: 6,
+    description:
+      "A simple and efficient car rental platform built with Nextjs. CarEase offers a seamless booking experience, making car rental easy and hassle-free. It showcases a commitment to creating user-friendly web solutions in the car rental industry. Its intuitive interface and quick processing make it a go-to choice for hassle-free car rentals",
+    githubLink: "https://github.com/Muhammad-Juman-jarwar/Rent-Car",
+    imageUrl: nextjs,
+    name: "Rent Car",
+    tagcolor1: "blue-text-gradient",
+    tagcolor2: "green-text-gradient",
+    tagcolor3: "pink-text-gradient",
+    tagname1: "Nextjs",
+    tagname2: "Tailwindcss",
+    tagname3: "javascript",
+    websiteLink: "https://rent-car1.netlify.app/",
   },
 ];

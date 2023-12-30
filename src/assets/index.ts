@@ -44,12 +44,25 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import websitetoshow from "./websitetoshow.jpg";
-import dashboard from "./dashboard.jpg";
+// import dashboard from "./dashboard.jpg";
 import MyPic from "./ProfilePic.png";
+
+import dashboard from "./projects/Dashboard.png";
+import ecommerce from "./projects/ecommerce-website2.png";
+import movie from "./projects/movie3.png";
+import natours from "./projects/natours2.png";
+import nextjs from "./projects/nextjs.png";
+import poultry from "./projects/poultry.png";
+
 import image1 from "./About/image-1.jpg";
 import image2 from "./About/image-2.jpg";
 
 export {
+  ecommerce,
+  movie,
+  natours,
+  nextjs,
+  poultry,
   logo,
   backend,
   creator,

@@ -9,6 +9,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
+import { ProjectShowCase } from "../constants";
+
 import DataBase from "../config/firebase";
 import { ref, get } from "firebase/database";
 
@@ -102,18 +104,18 @@ export const ProjectCard = ({
 };
 
 const Works = () => {
-  const [projectsData, setProjectsData] = useState([]);
+  // const [projectsData, setProjectsData] = useState(ProjectShowCase);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      const data: any = await fetchProjectData();
-      if (data) {
-        setProjectsData(data);
-      }
-    };
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const data: any = await fetchProjectData();
+  //     if (data) {
+  //       setProjectsData(data);
+  //     }
+  //   };
 
-    fetchData();
-  }, []);
+  //   fetchData();
+  // }, []);
 
   return (
     <>
@@ -136,16 +138,10 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7 items-center justify-center">
-        {Array.isArray(projectsData) && projectsData.length > 0 ? (
-          projectsData
-            .slice(0, 6)
-            .map((project: any, index) => (
-              <ProjectCard
-                key={`project-${index}`}
-                index={index}
-                {...project}
-              />
-            ))
+        {Array.isArray(ProjectShowCase) && ProjectShowCase.length > 0 ? (
+          ProjectShowCase.slice(0, 6).map((project: any, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
         ) : (
           <p>No projects available.</p>
         )}
