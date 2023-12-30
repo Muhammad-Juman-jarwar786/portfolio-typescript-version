@@ -128,7 +128,7 @@ const ContactMe = () => {
           </div>
           <button
             type="submit"
-            className="btnSignIn bg-[#050816]  hover: drop-shadow-2xl shadow-inner w-40 text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-5 rounded-md  hover:bg-[#151040] mt-5"
+            className="btnSignIn bg-[#050816] border-[1px]  hover: drop-shadow-2xl shadow-inner w-40 text-slate-50 font-bold text-lg transition-all duration-500 hover:scale-105 py-2 px-5 rounded-md  hover:bg-[#151040] mt-5"
           >
             {loading ? "Sending..." : "Send"}
           </button>

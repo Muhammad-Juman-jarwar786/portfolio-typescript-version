@@ -350,7 +350,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     audience and build the foundation for segmented marketing experiences designed to convert.
   </p>`,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "golang", "js", "clickHouse", "gcp"],
     startYear: "2018",
     logo: "/images/portfolio/justuno/logo.svg",
     isHomePage: true,
@@ -380,10 +380,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
       {
         title: "Workflow Builder",
-        images: [
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-        ],
+        images: [{ url: carrent }, { url: carrent }],
         description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
@@ -454,10 +451,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
       {
         title: "Workflow Builder",
-        images: [
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-          { url: "/images/portfolio/justuno/workflow-builder.png" },
-        ],
+        images: [{ url: carrent }, { url: carrent }],
         description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
@@ -893,9 +887,9 @@ export const TechnologyItems: TechnologyInterface[] = [
     svg: "neo4g.png",
   },
   {
-    title: "JanusGraph",
-    icon: "janus",
-    svg: "JanusGraph.png",
+    title: "Javascript",
+    icon: "js",
+    // svg: "JanusGraph.png",
   },
   {
     title: "ClickHouse",
