@@ -4,7 +4,7 @@ import { ServiceList as list } from "../../constants";
 const ServiceList: React.FC<{ services: string[] }> = ({ services }) => {
   return (
     <div className="w-full">
-      <h4 className="xl:text-1vw text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
+      <h4 className="xl:text-xl text-gray-900 text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
         Services Used
       </h4>
       {list

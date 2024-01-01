@@ -23,17 +23,27 @@ import {
   jobit,
   tripguide,
   websitetoshow,
-  dashboard,
   threejs,
   adobeillustrator,
   expressjs,
   image1,
   image2,
   ecommerce,
-  movie,
   natours,
   nextjs,
   poultry,
+  dashboard,
+  dashboard1,
+  dashboard2,
+  dashboard3,
+  dashboard4,
+  dashboard5,
+  movie,
+  movie1,
+  movie2,
+  movie3,
+  movie5,
+  movie6,
 } from "../assets";
 
 const services = [
@@ -333,74 +343,66 @@ export interface PortfolioListItem {
   subSystems?: PortfolioListItem[];
   isSubSystem?: boolean;
   logo?: string;
+  logoName?: string;
   isHomePage?: boolean;
 }
 
 export const PortfolioItems: PortfolioListItem[] = [
   {
-    title: "Justuno",
-    images: [{ url: carrent }, { url: carrent }, { url: carrent }],
+    title: "Admin Dashboard",
+    images: [{ url: dashboard }, { url: dashboard4 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
-    The fastest way to increase sales, lower costs, and hit your goals.     
+    The admin dashboard is a streamlined interface that offers real-time system metrics. Its user-friendly design allows for efficient monitoring and management of the system.     
   </p>
   <p class="text-gray-900">
-    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
-    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
-    audience and build the foundation for segmented marketing experiences designed to convert.
+    In addition to its robust analytics, the dashboard also provides powerful administrative tools. This integration showcases a commitment to enhancing user experience and effective system management.
   </p>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "js", "clickHouse", "gcp"],
-    startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    startYear: "2021",
+    logo: "/src/assets/projects/dashboardLogo.svg",
+    logoName: "Code Web",
     isHomePage: true,
     subSystems: [
       {
         title: "Design Canvas",
-        images: [{ url: carrent }, { url: carrent }],
+        images: [{ url: dashboard5 }, { url: dashboard1 }],
         description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
+        Beatufiully designed <b>Admin Dashboard</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://dashboard-react-admin-website.netlify.app/"
         >
-          www.justuno.com
+          Code Web
         </a>
         , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
+        persons the ability to read and understand the data via charts.
       </p>
       <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        With the Design Canvas an admin or manager can intuitively Add any type of
+        info with our vast list of plugins and components.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
-        year: "2023",
+        year: "2021",
       },
       {
         title: "Workflow Builder",
-        images: [{ url: carrent }, { url: carrent }],
+        images: [{ url: dashboard2 }, { url: dashboard3 }],
         description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to 
-        create process visually which in the background truns in to 
+        The workflow builder is very simple tool that allows the user to
+        create, update delete data visually which in the background truns in to
         a configuration that is used to execute those process.
-        
-        
-        Designed for 
+
+        Designed for
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://dashboard-react-admin-website.netlify.app/"
         >
-          www.justuno.com
+          Code Web
         </a>
-        , Workflow Builder serves as a core tool to determine how and when 
-        Ads would appear on the customer sites. Specifically with Workflow Builder
-        the user determin different ads based on the customer activities.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        , Workflow Builder serves as a core tool to determine how and when
+        users and products would be added on the database.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -409,8 +411,8 @@ export const PortfolioItems: PortfolioListItem[] = [
     ],
   },
   {
-    title: "Justuno",
-    images: [{ url: carrent }, { url: carrent }, { url: carrent }],
+    title: "StreamIt",
+    images: [{ url: movie }, { url: movie3 }],
     description: `<p class="mb-4 text-gray-900">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
@@ -428,7 +430,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     subSystems: [
       {
         title: "Design Canvas",
-        images: [{ url: carrent }, { url: carrent }],
+        images: [{ url: movie1 }, { url: movie2 }],
         description: `<p class="mb-4 text-gray-900">
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
@@ -451,7 +453,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
       {
         title: "Workflow Builder",
-        images: [{ url: carrent }, { url: carrent }],
+        images: [{ url: movie3 }, { url: movie6 }],
         description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 

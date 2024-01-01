@@ -6,7 +6,7 @@ const TechnologyList: React.FC<{ technologies: string[] }> = ({
 }) => {
   return (
     <div className="w-full">
-      <h4 className="xl:text-1vw text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
+      <h4 className="xl:text-xl text-gray-900 text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
         Technical Details
       </h4>
       <div className="grid grid-cols-3 gap-1 mb-8 flex-wrap">

@@ -16,6 +16,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
   isLast = false,
   isSubSystem = false,
   logo,
+  logoName,
   titleFont,
   isHomePage = false,
 }) => {
@@ -29,7 +30,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
         <h2
           className={`${
             titleFont || "text-10vw"
-          } font-serif text-right -mb-09vw -mr-2 font-bold xl:relative z-100 xl:pt-0 pb-0`}
+          } font-serif text-[5vw] text-right text-black -mb-[4vw] -mr-2 font-bold xl:relative z-100 xl:pt-0 pb-0`}
         >
           {title}
         </h2>
@@ -41,18 +42,25 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
       >
         {!isSubSystem && !isHomePage && (
           <div
-            className="hidden lg:flex sm:h-auto bg-white pr-8 overflow-hidden lg:relative"
+            className="hidden lg:flex h-auto sm:h-auto bg-white pr-8 overflow-hidden lg:relative"
             style={{ width: "calc(300px + 2rem)" }}
           >
-            <Sticky topOffset={20} bottomOffset={-130}>
+            <Sticky topOffset={20} bottomOffset={-100}>
               {({ style }) => (
                 <div
                   style={{ ...style, width: 300 }}
                   className="h-full flex flex-col"
                 >
-                  {logo && <img src={logo} className="w-full mb-8 mt-2" />}
+                  {logo && (
+                    <div className="text-gray-900 flex items-center justify-center">
+                      <img src={logo} className="w-9 h-9 mb-8 mt-2" />
+                      <div className="-mt-6 font-semibold text-[2vw]">
+                        {logoName}
+                      </div>
+                    </div>
+                  )}
                   <div className="w-full">
-                    <h4 className="xl:text-1vw text-xs font-semibold xl:font-normal font-serif">
+                    <h4 className="xl:text-xl text-gray-900 text-xs font-semibold xl:font-normal font-serif">
                       {startYear ? "Partnered Since" : "Year"}
                     </h4>
                     <h3 className="text-4vw text-gray-900 font-mono font-black mb-8 border-2 border-gray-900">
@@ -84,7 +92,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                   <img
                     key={index}
                     className={`w-full z-10 object-contain object-center h-full ${
-                      isSubSystem && ""
+                      isSubSystem && "h-full lg:h-60 lg:object-cover"
                     }`}
                     src={image.url}
                   />
@@ -92,7 +100,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                   <div className="grid grid-cols-3 gap-5">
                     <img
                       key={index}
-                      className={`m-2 overflow-hidden rounded-2xl w-auto object-contain object-center h-full ${
+                      className={`m-2 overflow-hidden rounded-2xl w-auto object-contain object-center h-full lg:h-60 lg:object-cover ${
                         isSubSystem ? "max-h-80" : ""
                       }`}
                       style={{ border: "8px solid #3f4048" }}
@@ -108,7 +116,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
           </Carousel>
           {!isHomePage && <div style={{ clear: "both" }}>&nbsp;</div>}
           {isSubSystem && (
-            <h2 className="text-lg tracking-wider lg:text-2vw font-bold">
+            <h2 className="text-lg text-gray-900 tracking-wider lg:text-[2vw] font-bold">
               {title}
             </h2>
           )}
@@ -124,7 +132,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
           )}
           {subSystems && (
             <>
-              <div className="text-8vw lg:text-6vw font-bold drop-shadow-lg mb-4 mt-5 lg:mt-16">
+              <div className="text-[3vw] text-gray-900 lg:text-6vw font-bold drop-shadow-lg mb-4 mt-5 lg:mt-16">
                 Subsystems
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
@@ -140,9 +148,14 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
         <div className="h-full flex flex-col bg-white px-5 lg:hidden mb-8 pb-3">
           {/* <div className="flex gap-x-4"> */}
           <div className="flex flex-col w-full mt-5">
-            {logo && <img src={logo} className="w-full mb-4 " />}
+            {logo && (
+              <div className="text-gray-900 flex items-center justify-center">
+                <img src={logo} className="w-9 h-9 mb-8 " />
+                <div className="-mt-6 font-semibold text-[4vw]">{logoName}</div>
+              </div>
+            )}
             <div className="w-full mt-2">
-              <h4 className=" text-xs font-semibold xl:font-normal font-serif">
+              <h4 className=" text-sm text-gray-900 font-semibold xl:font-normal font-serif">
                 {startYear ? "Partnered Since" : "Year"}
               </h4>
               <h3 className="text-4vw text-gray-900 font-mono font-black mb-4 mt-2 border-2 border-gray-900">

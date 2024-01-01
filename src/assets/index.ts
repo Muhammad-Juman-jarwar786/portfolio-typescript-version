@@ -48,8 +48,20 @@ import websitetoshow from "./websitetoshow.jpg";
 import MyPic from "./ProfilePic.png";
 
 import dashboard from "./projects/Dashboard.png";
+import dashboard1 from "./projects/dashboard1.png";
+import dashboard2 from "./projects/dashboard2.png";
+import dashboard3 from "./projects/dashboard3.png";
+import dashboard4 from "./projects/dashboard4.png";
+import dashboard5 from "./projects/dashboard5.png";
+
+import movie from "./projects/movie4.png";
+import movie1 from "./projects/movie1.png";
+import movie2 from "./projects/movie2.png";
+import movie3 from "./projects/movie3.png";
+import movie5 from "./projects/movie5.png";
+import movie6 from "./projects/movie6.png";
+
 import ecommerce from "./projects/ecommerce-website2.png";
-import movie from "./projects/movie3.png";
 import natours from "./projects/natours2.png";
 import nextjs from "./projects/nextjs.png";
 import poultry from "./projects/poultry.png";
@@ -59,7 +71,6 @@ import image2 from "./About/image-2.jpg";
 
 export {
   ecommerce,
-  movie,
   natours,
   nextjs,
   poultry,
@@ -91,10 +102,21 @@ export {
   jobit,
   tripguide,
   websitetoshow,
-  dashboard,
   adobeillustrator,
   expressjs,
   MyPic,
   image1,
   image2,
+  dashboard,
+  dashboard1,
+  dashboard2,
+  dashboard3,
+  dashboard4,
+  dashboard5,
+  movie,
+  movie1,
+  movie2,
+  movie3,
+  movie5,
+  movie6,
 };
