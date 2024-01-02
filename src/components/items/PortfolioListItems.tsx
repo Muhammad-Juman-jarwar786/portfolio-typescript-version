@@ -53,10 +53,10 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                 >
                   {logo && (
                     <div className="text-gray-900 flex items-center justify-center">
-                      <img src={logo} className="w-9 h-9 mb-8 mt-2" />
-                      <div className="-mt-6 font-semibold text-[2vw]">
+                      <img src={logo} className="w-32 h-9 mb-8 mt-2" />
+                      {/* <div className="-mt-6 font-semibold text-[2vw]">
                         {logoName}
-                      </div>
+                      </div> */}
                     </div>
                   )}
                   <div className="w-full">

@@ -60,6 +60,7 @@ import movie2 from "./projects/movie2.png";
 import movie3 from "./projects/movie3.png";
 import movie5 from "./projects/movie5.png";
 import movie6 from "./projects/movie6.png";
+import movieLogo from "./projects/StreamitLogo.svg";
 
 import ecommerce from "./projects/ecommerce-website2.png";
 import natours from "./projects/natours2.png";
@@ -119,4 +120,5 @@ export {
   movie3,
   movie5,
   movie6,
+  movieLogo,
 };

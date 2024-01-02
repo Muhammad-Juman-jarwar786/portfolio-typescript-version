@@ -44,6 +44,7 @@ import {
   movie3,
   movie5,
   movie6,
+  movieLogo,
 } from "../assets";
 
 const services = [
@@ -425,7 +426,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: movieLogo,
     isHomePage: true,
     subSystems: [
       {
@@ -453,7 +454,7 @@ export const PortfolioItems: PortfolioListItem[] = [
       },
       {
         title: "Workflow Builder",
-        images: [{ url: movie3 }, { url: movie6 }],
+        images: [{ url: movie5 }, { url: movie6 }],
         description: `<p class="mb-4 text-gray-900">
         The workflow builder is very simple tool that allows the user to 
         create process visually which in the background truns in to 
