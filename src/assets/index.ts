@@ -63,18 +63,36 @@ import movie6 from "./projects/movie6.png";
 import movieLogo from "./projects/StreamitLogo.svg";
 
 import ecommerce from "./projects/ecommerce-website2.png";
-import natours from "./projects/natours2.png";
-import nextjs from "./projects/nextjs.png";
+import ecommerce1 from "./projects/Ecommerce-website1.png";
+import ecommerce2 from "./projects/Ecommerce-website.png";
+import ecommerce3 from "./projects/ecommerce-website3.png";
+import ecommerce4 from "./projects/ecommerce-website4.png";
+import ecommerce5 from "./projects/ecommerce-website5.png";
+
 import poultry from "./projects/poultry.png";
+import poultry1 from "./projects/poultryfarm.png";
+import poultry2 from "./projects/poultryfarm1.png";
+import poultry3 from "./projects/poultryfarm2.png";
+import poultry4 from "./projects/poultryfarm3.png";
+import poultry5 from "./projects/poultryfarm4.png";
+
+import natours from "./projects/natours2.png";
+// import natours1 from "./projects/n";
+import natours2 from "./projects/natours.png";
+import natours3 from "./projects/natours3.png";
+import natours4 from "./projects/natours4.png";
+import natours5 from "./projects/natours5.png";
+import natours6 from "./projects/natours6.png";
+
+import next from "./projects/next.png";
+import next2 from "./projects/next2.png";
+import next3 from "./projects/next3.png";
+import next4 from "./projects/next4.png";
 
 import image1 from "./About/image-1.jpg";
 import image2 from "./About/image-2.jpg";
 
 export {
-  ecommerce,
-  natours,
-  nextjs,
-  poultry,
   logo,
   backend,
   creator,
@@ -121,4 +139,27 @@ export {
   movie5,
   movie6,
   movieLogo,
+  ecommerce,
+  ecommerce1,
+  ecommerce2,
+  ecommerce3,
+  ecommerce4,
+  ecommerce5,
+  poultry,
+  poultry1,
+  poultry2,
+  poultry3,
+  poultry4,
+  poultry5,
+  natours,
+  // natours1,
+  natours2,
+  natours3,
+  natours4,
+  natours5,
+  natours6,
+  next,
+  next2,
+  next3,
+  next4,
 };

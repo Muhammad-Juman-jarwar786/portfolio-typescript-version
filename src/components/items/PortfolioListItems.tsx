@@ -91,8 +91,11 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                 {!image.title ? (
                   <img
                     key={index}
-                    className={`w-full z-10 object-contain object-center h-full ${
-                      isSubSystem && "h-full lg:h-60 lg:object-cover"
+                    className={`w-full z-10 object-cover object-left h-full  ${
+                      // isSubSystem && ""
+                      !isSubSystem
+                        ? "lg:h-[38rem]"
+                        : "h-full lg:h-60 lg:object-cover"
                     }`}
                     src={image.url}
                   />
@@ -104,7 +107,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                         isSubSystem ? "max-h-80" : ""
                       }`}
                       style={{ border: "8px solid #3f4048" }}
-                      src={image.url}
+                      // src={image.url}
                     />
                     <h6 className="text-xl md:text-2xl lg:text-4xl font-serif font-black text-left flex items-center col-span-2">
                       {image.title}
