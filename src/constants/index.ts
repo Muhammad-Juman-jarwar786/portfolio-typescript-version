@@ -34,6 +34,7 @@ import {
   dashboard3,
   dashboard4,
   dashboard5,
+  dashboardLogo,
   movie,
   movie1,
   movie2,
@@ -47,10 +48,12 @@ import {
   ecommerce3,
   ecommerce4,
   ecommerce5,
+  ecommerceLogo,
   poultry,
   poultry1,
   poultry3,
   poultry4,
+  poultryLogo,
   natours,
   // natours1,
   natours2,
@@ -58,10 +61,17 @@ import {
   natours4,
   natours5,
   natours6,
+  natoursLogo,
   next,
   next2,
   next3,
   next4,
+  nextLogo,
+  chat1,
+  chat2,
+  chat3,
+  chat4,
+  chatLogo,
 } from "../assets";
 
 const services = [
@@ -378,7 +388,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "js", "clickHouse", "gcp"],
     startYear: "2021",
-    logo: "/src/assets/projects/dashboardLogo.svg",
+    logo: dashboardLogo,
     logoName: "Code Web",
     isHomePage: true,
     subSystems: [
@@ -391,7 +401,7 @@ export const PortfolioItems: PortfolioListItem[] = [
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
           href="https://dashboard-react-admin-website.netlify.app/"
         >
-          Code Web
+          www.Code-Web.com
         </a>
         , Design Canvas does provide both designers and non-techical
         persons the ability to read and understand the data via charts.
@@ -417,7 +427,7 @@ export const PortfolioItems: PortfolioListItem[] = [
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
           href="https://dashboard-react-admin-website.netlify.app/"
         >
-          Code Web
+          www.Code-Web.com
         </a>
         , Workflow Builder serves as a core tool to determine how and when
         users and products would be added on the database.
@@ -432,17 +442,14 @@ export const PortfolioItems: PortfolioListItem[] = [
     title: "StreamIt",
     images: [{ url: movie }, { url: movie3 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
-    The fastest way to increase sales, lower costs, and hit your goals.     
+    Streamit: A dynamic movie project inspired by Netflix. Showcasing a diverse library of films, it offers an immersive streaming experience tailored to the viewer’s preferences. A testament to innovative design and seamless user interface.     
   </p>
   <p class="text-gray-900">
-    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
-    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
-    audience and build the foundation for segmented marketing experiences designed to convert.
+Streamit utilizes captivating, personalized features to transform anonymous website visitors into recognized subscribers and valuable customers. It employs efficient email and SMS collection methods to expand its audience base, laying the groundwork for segmented marketing experiences that are designed to convert. This approach enhances user engagement and promotes a more personalized streaming experience.
   </p>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2021",
     logo: movieLogo,
     isHomePage: true,
     subSystems: [
@@ -450,20 +457,18 @@ export const PortfolioItems: PortfolioListItem[] = [
         title: "Design Canvas",
         images: [{ url: movie1 }, { url: movie2 }],
         description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
+        Beatufiully designed <b>Website</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://movie-website-design1.netlify.app/"
         >
-          www.justuno.com
+          www.streamit.com
         </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
+        , Design Canvas: A robust and intuitive interface that allows users to visualize and manipulate the layout of Streamit. It’s a playground for creativity, enabling the design of unique and engaging user experiences.
       </p>
       <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        With the Design Canvas a user can watch any type of
+        movie with our vast list of movies and Web-Series.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -473,25 +478,19 @@ export const PortfolioItems: PortfolioListItem[] = [
         title: "Workflow Builder",
         images: [{ url: movie5 }, { url: movie6 }],
         description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to 
-        create process visually which in the background truns in to 
-        a configuration that is used to execute those process.
+        The Workflow Builder: A powerful tool that streamlines the creation and management of content workflows. It ensures seamless content delivery, from upload to streaming, enhancing the efficiency and reliability of Streamit.
         
         
         Designed for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://movie-website-design1.netlify.app/"
         >
-          www.justuno.com
+          www.streamit.com
         </a>
         , Workflow Builder serves as a core tool to determine how and when 
-        Ads would appear on the customer sites. Specifically with Workflow Builder
-        the user determin different ads based on the customer activities.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        new mpvies would appear on the streamit. Specifically with Workflow Builder
+        the team determines different movies based on the customer search.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -503,7 +502,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     title: "E-Commerce",
     images: [{ url: ecommerce }, { url: ecommerce2 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
+    Create Personalized Website Experiences that Convert and Turn more website traffic into customers.
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
   <p class="text-gray-900">
@@ -514,7 +513,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: ecommerceLogo,
     isHomePage: true,
     subSystems: [
       {
@@ -585,7 +584,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: poultryLogo,
     isHomePage: true,
     subSystems: [
       {
@@ -628,7 +627,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: natoursLogo,
     isHomePage: true,
     subSystems: [
       {
@@ -699,7 +698,7 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: nextLogo,
     isHomePage: true,
     subSystems: [
       {
@@ -728,8 +727,8 @@ export const PortfolioItems: PortfolioListItem[] = [
     ],
   },
   {
-    title: "Natours",
-    images: [{ url: natours }, { url: natours2 }],
+    title: "Group Chat",
+    images: [{ url: chat1 }, { url: chat4 }],
     description: `<p class="mb-4 text-gray-900">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
@@ -742,51 +741,23 @@ export const PortfolioItems: PortfolioListItem[] = [
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
-    logo: "/images/portfolio/justuno/logo.svg",
+    logo: chatLogo,
     isHomePage: true,
     subSystems: [
       {
         title: "Design Canvas",
-        images: [{ url: natours6 }, { url: natours3 }],
+        images: [{ url: chat2 }, { url: chat3 }],
         description: `<p class="mb-4 text-gray-900">
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://group-chat0.netlify.app/login"
         >
-          www.justuno.com
+          www.group-chat.com
         </a>
         , Design Canvas does provide both designers and non-techical
         persons the ability to create seamless ad popups that can be
         integrated to the system using justuno.com.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
-      </p>`,
-        services: ["001", "002", "004"],
-        techologies: ["react", "golang", "sass"],
-        year: "2023",
-      },
-      {
-        title: "Workflow Builder",
-        images: [{ url: natours4 }, { url: natours5 }],
-        description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to 
-        create process visually which in the background truns in to 
-        a configuration that is used to execute those process.
-        
-        
-        Designed for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
-        >
-          www.justuno.com
-        </a>
-        , Workflow Builder serves as a core tool to determine how and when 
-        Ads would appear on the customer sites. Specifically with Workflow Builder
-        the user determin different ads based on the customer activities.
       </p>
       <p class="text-gray-900">
         With the Design Canvas a user can intuitively create any type of

@@ -3,33 +3,33 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github, world } from "../assets";
-// import { SectionWrapper } from '../hoc';
-// import { projects } from '../constants';
 import { fadeIn, textVariant } from "../utils/motion";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
 
 import { ProjectShowCase } from "../constants";
 
-import DataBase from "../config/firebase";
-import { ref, get } from "firebase/database";
+// import { SectionWrapper } from '../hoc';
+// import { projects } from '../constants';
+// import { useState, useEffect } from "react";
+// import DataBase from "../config/firebase";
+// import { ref, get } from "firebase/database";
 
-const fetchProjectData = async () => {
-  try {
-    const dbRef = ref(DataBase, "projects");
-    const snapshot = await get(dbRef);
+// const fetchProjectData = async () => {
+//   try {
+//     const dbRef = ref(DataBase, "projects");
+//     const snapshot = await get(dbRef);
 
-    if (snapshot.exists()) {
-      return Object.values(snapshot.val());
-    } else {
-      console.log("No data available");
-      return null;
-    }
-  } catch (error) {
-    console.error("Error fetching data:", error);
-    return null;
-  }
-};
+//     if (snapshot.exists()) {
+//       return Object.values(snapshot.val());
+//     } else {
+//       console.log("No data available");
+//       return null;
+//     }
+//   } catch (error) {
+//     console.error("Error fetching data:", error);
+//     return null;
+//   }
+// };
 
 export const ProjectCard = ({
   index,
@@ -121,7 +121,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant(1000)}>
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
-        <h2 className={`${styles.sectionHeadText} mt-20`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText} mt-20`}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">

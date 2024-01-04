@@ -46,9 +46,13 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
             style={{ width: "calc(300px + 2rem)" }}
           >
             <Sticky topOffset={20} bottomOffset={-100}>
-              {({ style }) => (
+              {({ style, isSticky }) => (
                 <div
-                  style={{ ...style, width: 300 }}
+                  style={{
+                    ...style,
+                    width: 300,
+                    marginTop: isSticky ? "70px" : "0px",
+                  }}
                   className="h-full flex flex-col"
                 >
                   {logo && (
