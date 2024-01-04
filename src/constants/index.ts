@@ -502,14 +502,11 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
     title: "E-Commerce",
     images: [{ url: ecommerce }, { url: ecommerce2 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers.
-    The fastest way to increase sales, lower costs, and hit your goals.     
-  </p>
-  <p class="text-gray-900">
-    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
-    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
-    audience and build the foundation for segmented marketing experiences designed to convert.
-  </p>`,
+      Presenting a fully responsive e-commerce website, equipped with a secure payment system. This platform offers a seamless shopping experience, effectively converting website traffic into customers, thereby increasing sales and lowering costs.
+    </p>
+    <p class="text-gray-900">
+        The website employs advanced CRO features to transform anonymous traffic into known subscribers and high-value customers. It uses high-performing email and SMS collection strategies to expand your audience, laying the groundwork for segmented marketing experiences designed to convert.
+    </p>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2018",
@@ -520,20 +517,14 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         title: "Design Canvas",
         images: [{ url: ecommerce4 }, { url: ecommerce3 }],
         description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
+        Beatufiully designed <b>E-Commerce website</b> 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
           href="https://www.justuno.com"
         >
           www.justuno.com
         </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        , The website is enhanced with dynamic animations powered by Anime.js, adding an engaging element to the user interface. This simple yet effective e-commerce solution caters to the evolving needs of businesses and consumers alike.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -543,9 +534,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         title: "Workflow Builder",
         images: [{ url: ecommerce1 }, { url: ecommerce5 }],
         description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to 
-        create process visually which in the background truns in to 
-        a configuration that is used to execute those process.
+        The Workflow Builder of this e-commerce website is designed to streamline the process of product management. It provides a user-friendly interface where the admin can easily add new products by simply filling out a form.
         
         
         Designed for 
@@ -555,13 +544,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         >
           www.justuno.com
         </a>
-        , Workflow Builder serves as a core tool to determine how and when 
-        Ads would appear on the customer sites. Specifically with Workflow Builder
-        the user determin different ads based on the customer activities.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+        , This tool ensures a smooth and efficient workflow, allowing the admin to focus on other important aspects of managing the e-commerce platform. The fully responsive design ensures that the Workflow Builder is accessible and functional across various devices, enhancing the overall user experience.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -573,13 +556,10 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
     title: "Poultry-Farm",
     images: [{ url: poultry }, { url: poultry1 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
-    The fastest way to increase sales, lower costs, and hit your goals.     
+    This system <a class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm" href="https://poultryfarm-management-system.web.app/" > Poultry-Farm </a> is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.    
   </p>
   <p class="text-gray-900">
-    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
-    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
-    audience and build the foundation for segmented marketing experiences designed to convert.
+  The Poultry Farm Management System is a robust and reliable tool that plays a crucial role in the successful management of a poultry farm. It ensures that all records are kept safely and can be easily fetched, thereby enhancing the efficiency and effectiveness of farm management3.
   </p>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
@@ -588,23 +568,13 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "Workflow Builder",
         images: [{ url: poultry3 }, { url: poultry4 }],
         description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
-        >
-          www.justuno.com
-        </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
+        , This tool is designed to handle various tasks, including the addition of products and other essential items. It allows administrators to maintain control over the farm’s operations, ensuring that all activities are carried out efficiently and effectively
       </p>
       <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+      The Workflow Builder of the Poultry Farm Management System is a robust and reliable tool that plays a crucial role in the successful management of a poultry farm. It ensures that all records are kept safely and can be easily fetched, thereby enhancing the efficiency and effectiveness of farm management
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -616,13 +586,10 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
     title: "Natours",
     images: [{ url: natours }, { url: natours2 }],
     description: `<p class="mb-4 text-gray-900">
-    Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
-    The fastest way to increase sales, lower costs, and hit your goals.     
+    The Natours website is a tour booking web application. It offers various features such as authentication and authorization, tour booking, payment processing, user and admin profiles. The website showcases modern responsive design using HTML/CSS and CSS preprocessing is accomplished using SASS.  
   </p>
   <p class="text-gray-900">
-    Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
-    subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
-    audience and build the foundation for segmented marketing experiences designed to convert.
+  The SASS applies variables, mixins, selector nesting, partials, imports, extensions and more to improve CSS power, and create a cleaner, more compact and maintainable code base. The website offers unique tours with stunning visuals and activities like surfing, skating, parajumping, rock climbing and more. It’s a great platform where users can plan and book their travelling plans.
   </p>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
@@ -634,20 +601,17 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         title: "Design Canvas",
         images: [{ url: natours6 }, { url: natours3 }],
         description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
+        Beatufiully designed <b> Tourism Website.</b>
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://natours-project0.netlify.app/"
         >
-          www.justuno.com
+          www.natours.com
         </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
+        , The Design Canvas incorporates a variety of features, including animations with @keyframes and transitions, clip-paths, background-clip, shape-outside, backdrop filter, transform, object-fit, perspective, and calc() to showcase the power of CSS styling.
       </p>
       <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+      It also uses the BEM (Block-Element-Modeling) design convention and employs complex selectors, and pseudo selectors. Additionally, the 7-1 rule for component-based design architecture is applied to promote reusable, scalable, and maintainable code.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -657,25 +621,11 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         title: "Workflow Builder",
         images: [{ url: natours4 }, { url: natours5 }],
         description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to 
-        create process visually which in the background truns in to 
-        a configuration that is used to execute those process.
-        
-        
-        Designed for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
-        >
-          www.justuno.com
-        </a>
-        , Workflow Builder serves as a core tool to determine how and when 
-        Ads would appear on the customer sites. Specifically with Workflow Builder
-        the user determin different ads based on the customer activities.
+        This tool is designed to handle various tasks, including the addition of tours and other essential items. It allows administrators to maintain control over the platform’s operations, ensuring that all activities are carried out efficiently and effectively.
+        Moreover, the Workflow Builder is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.
       </p>
       <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
+      The Workflow Builder of the Natours website is a robust and reliable tool that plays a crucial role in the successful management of a tourism platform.
       </p>`,
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
@@ -708,9 +658,9 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
         Beatufiully designed <b>AD Popup creator</b> for 
         <a
           class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
+          href="https://rent-car1.netlify.app/"
         >
-          www.justuno.com
+          www.carhub.com
         </a>
         , Design Canvas does provide both designers and non-techical
         persons the ability to create seamless ad popups that can be

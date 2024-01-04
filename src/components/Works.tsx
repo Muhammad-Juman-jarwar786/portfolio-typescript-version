@@ -18,7 +18,22 @@ import { ProjectShowCase } from "../constants";
 //   try {
 //     const dbRef = ref(DataBase, "projects");
 //     const snapshot = await get(dbRef);
+// const fetchProjectData = async () => {
+//   try {
+//     const dbRef = ref(DataBase, "projects");
+//     const snapshot = await get(dbRef);
 
+//     if (snapshot.exists()) {
+//       return Object.values(snapshot.val());
+//     } else {
+//       console.log("No data available");
+//       return null;
+//     }
+//   } catch (error) {
+//     console.error("Error fetching data:", error);
+//     return null;
+//   }
+// };
 //     if (snapshot.exists()) {
 //       return Object.values(snapshot.val());
 //     } else {
