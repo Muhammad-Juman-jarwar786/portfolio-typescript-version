@@ -379,12 +379,17 @@ export const PortfolioItems: PortfolioListItem[] = [
   {
     title: "Admin Dashboard",
     images: [{ url: dashboard }, { url: dashboard4 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
     The admin dashboard is a streamlined interface that offers real-time system metrics. Its user-friendly design allows for efficient monitoring and management of the system.     
   </p>
-  <p class="text-gray-900">
+  <p class="text-white ml-3">
     In addition to its robust analytics, the dashboard also provides powerful administrative tools. This integration showcases a commitment to enhancing user experience and effective system management.
-  </p>`,
+  </p><a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm"
+            href="https://dashboard-react-admin-website.netlify.app/"
+          >
+            www.Code-Web.com
+          </a>`,
     services: ["001", "002"],
     techologies: ["react", "golang", "js", "clickHouse", "gcp"],
     startYear: "2021",
@@ -393,45 +398,49 @@ export const PortfolioItems: PortfolioListItem[] = [
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: dashboard5 }, { url: dashboard1 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>Admin Dashboard</b> for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://dashboard-react-admin-website.netlify.app/"
-        >
-          www.Code-Web.com
-        </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to read and understand the data via charts.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas an admin or manager can intuitively Add any type of
-        info with our vast list of plugins and components.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b>Admin Dashboard</b> for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://dashboard-react-admin-website.netlify.app/"
+        //   >
+        //     www.Code-Web.com
+        //   </a>
+        //   , Design Canvas does provide both designers and non-techical
+        //   persons the ability to read and understand the data via charts.
+        // </p>
+        // <p class="text-white">
+        //   With the Design Canvas an admin or manager can intuitively Add any type of
+        //   info with our vast list of plugins and components.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2021",
       },
       {
-        title: "Workflow Builder",
+        title: "",
+        // Workflow Builder
         images: [{ url: dashboard2 }, { url: dashboard3 }],
-        description: `<p class="mb-4 text-gray-900">
-        The workflow builder is very simple tool that allows the user to
-        create, update delete data visually which in the background truns in to
-        a configuration that is used to execute those process.
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   The workflow builder is very simple tool that allows the user to
+        //   create, update delete data visually which in the background truns in to
+        //   a configuration that is used to execute those process.
 
-        Designed for
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://dashboard-react-admin-website.netlify.app/"
-        >
-          www.Code-Web.com
-        </a>
-        , Workflow Builder serves as a core tool to determine how and when
-        users and products would be added on the database.
-      </p>`,
+        //   Designed for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://dashboard-react-admin-website.netlify.app/"
+        //   >
+        //     www.Code-Web.com
+        //   </a>
+        //   , Workflow Builder serves as a core tool to determine how and when
+        //   users and products would be added on the database.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -441,12 +450,19 @@ export const PortfolioItems: PortfolioListItem[] = [
   {
     title: "StreamIt",
     images: [{ url: movie }, { url: movie3 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
     Streamit: A dynamic movie project inspired by Netflix. Showcasing a diverse library of films, it offers an immersive streaming experience tailored to the viewer’s preferences. A testament to innovative design and seamless user interface.     
   </p>
-  <p class="text-gray-900">
+  <p class="text-white ml-3">
 Streamit utilizes captivating, personalized features to transform anonymous website visitors into recognized subscribers and valuable customers. It employs efficient email and SMS collection methods to expand its audience base, laying the groundwork for segmented marketing experiences that are designed to convert. This approach enhances user engagement and promotes a more personalized streaming experience.
-  </p>`,
+  </p> 
+            <a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm"
+            href="https://movie-website-design1.netlify.app/"
+          >
+            www.streamit.com
+          </a>
+  `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
     startYear: "2021",
@@ -454,44 +470,47 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: movie1 }, { url: movie2 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>Website</b> for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://movie-website-design1.netlify.app/"
-        >
-          www.streamit.com
-        </a>
-        , Design Canvas: A robust and intuitive interface that allows users to visualize and manipulate the layout of Streamit. It’s a playground for creativity, enabling the design of unique and engaging user experiences.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can watch any type of
-        movie with our vast list of movies and Web-Series.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b>Website</b> for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://movie-website-design1.netlify.app/"
+        //   >
+        //     www.streamit.com
+        //   </a>
+        //   , Design Canvas: A robust and intuitive interface that allows users to visualize and manipulate the layout of Streamit. It’s a playground for creativity, enabling the design of unique and engaging user experiences.
+        // </p>
+        // <p class="text-white">
+        //   With the Design Canvas a user can watch any type of
+        //   movie with our vast list of movies and Web-Series.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
       },
       {
-        title: "Workflow Builder",
+        title: "",
+        // Workflow Builder
         images: [{ url: movie5 }, { url: movie6 }],
-        description: `<p class="mb-4 text-gray-900">
-        The Workflow Builder: A powerful tool that streamlines the creation and management of content workflows. It ensures seamless content delivery, from upload to streaming, enhancing the efficiency and reliability of Streamit.
-        
-        
-        Designed for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://movie-website-design1.netlify.app/"
-        >
-          www.streamit.com
-        </a>
-        , Workflow Builder serves as a core tool to determine how and when 
-        new mpvies would appear on the streamit. Specifically with Workflow Builder
-        the team determines different movies based on the customer search.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   The Workflow Builder: A powerful tool that streamlines the creation and management of content workflows. It ensures seamless content delivery, from upload to streaming, enhancing the efficiency and reliability of Streamit.
+
+        //   Designed for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://movie-website-design1.netlify.app/"
+        //   >
+        //     www.streamit.com
+        //   </a>
+        //   , Workflow Builder serves as a core tool to determine how and when
+        //   new mpvies would appear on the streamit. Specifically with Workflow Builder
+        //   the team determines different movies based on the customer search.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -501,51 +520,61 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   {
     title: "E-Commerce",
     images: [{ url: ecommerce }, { url: ecommerce2 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
       Presenting a fully responsive e-commerce website, equipped with a secure payment system. This platform offers a seamless shopping experience, effectively converting website traffic into customers, thereby increasing sales and lowering costs.
     </p>
-    <p class="text-gray-900">
+    <p class="text-white ml-3">
         The website employs advanced CRO features to transform anonymous traffic into known subscribers and high-value customers. It uses high-performing email and SMS collection strategies to expand your audience, laying the groundwork for segmented marketing experiences designed to convert.
-    </p>`,
+    </p> 
+              <a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 font-bold rounded-sm"
+            href="https://e-commerce-website0.netlify.app/"
+          >
+            www.E-Commerce.com
+          </a>
+    `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2022",
     logo: ecommerceLogo,
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: ecommerce4 }, { url: ecommerce3 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>E-Commerce website</b> 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
-        >
-          www.justuno.com
-        </a>
-        , The website is enhanced with dynamic animations powered by Anime.js, adding an engaging element to the user interface. This simple yet effective e-commerce solution caters to the evolving needs of businesses and consumers alike.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b>E-Commerce website</b>
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://www.justuno.com"
+        //   >
+        //     www.justuno.com
+        //   </a>
+        //   , The website is enhanced with dynamic animations powered by Anime.js, adding an engaging element to the user interface. This simple yet effective e-commerce solution caters to the evolving needs of businesses and consumers alike.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
       },
       {
-        title: "Workflow Builder",
+        title: "",
+        // Workflow Builder
         images: [{ url: ecommerce1 }, { url: ecommerce5 }],
-        description: `<p class="mb-4 text-gray-900">
-        The Workflow Builder of this e-commerce website is designed to streamline the process of product management. It provides a user-friendly interface where the admin can easily add new products by simply filling out a form.
-        
-        
-        Designed for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://www.justuno.com"
-        >
-          www.justuno.com
-        </a>
-        , This tool ensures a smooth and efficient workflow, allowing the admin to focus on other important aspects of managing the e-commerce platform. The fully responsive design ensures that the Workflow Builder is accessible and functional across various devices, enhancing the overall user experience.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   The Workflow Builder of this e-commerce website is designed to streamline the process of product management. It provides a user-friendly interface where the admin can easily add new products by simply filling out a form.
+
+        //   Designed for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://www.justuno.com"
+        //   >
+        //     www.justuno.com
+        //   </a>
+        //   , This tool ensures a smooth and efficient workflow, allowing the admin to focus on other important aspects of managing the e-commerce platform. The fully responsive design ensures that the Workflow Builder is accessible and functional across various devices, enhancing the overall user experience.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -555,27 +584,31 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   {
     title: "Poultry-Farm",
     images: [{ url: poultry }, { url: poultry1 }],
-    description: `<p class="mb-4 text-gray-900">
-    This system <a class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm" href="https://poultryfarm-management-system.web.app/" > Poultry-Farm </a> is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.    
+    description: `<p class="mb-4 ml-3 text-white">
+    This system is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.    
   </p>
-  <p class="text-gray-900">
+  <p class="text-white  ml-3">
   The Poultry Farm Management System is a robust and reliable tool that plays a crucial role in the successful management of a poultry farm. It ensures that all records are kept safely and can be easily fetched, thereby enhancing the efficiency and effectiveness of farm management3.
-  </p>`,
+  </p>
+  <a class="px-1.5 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm ml-3" href="https://poultryfarm-management-system.web.app/" > Poultry-Farm </a>
+  `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2022",
     logo: poultryLogo,
     isHomePage: true,
     subSystems: [
       {
-        title: "Workflow Builder",
+        title: "",
+        // Workflow Builder
         images: [{ url: poultry3 }, { url: poultry4 }],
-        description: `<p class="mb-4 text-gray-900">
-        , This tool is designed to handle various tasks, including the addition of products and other essential items. It allows administrators to maintain control over the farm’s operations, ensuring that all activities are carried out efficiently and effectively
-      </p>
-      <p class="text-gray-900">
-      The Workflow Builder of the Poultry Farm Management System is a robust and reliable tool that plays a crucial role in the successful management of a poultry farm. It ensures that all records are kept safely and can be easily fetched, thereby enhancing the efficiency and effectiveness of farm management
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   , This tool is designed to handle various tasks, including the addition of products and other essential items. It allows administrators to maintain control over the farm’s operations, ensuring that all activities are carried out efficiently and effectively
+        // </p>
+        // <p class="text-white">
+        // The Workflow Builder of the Poultry Farm Management System is a robust and reliable tool that plays a crucial role in the successful management of a poultry farm. It ensures that all records are kept safely and can be easily fetched, thereby enhancing the efficiency and effectiveness of farm management
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -585,48 +618,59 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   {
     title: "Natours",
     images: [{ url: natours }, { url: natours2 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
     The Natours website is a tour booking web application. It offers various features such as authentication and authorization, tour booking, payment processing, user and admin profiles. The website showcases modern responsive design using HTML/CSS and CSS preprocessing is accomplished using SASS.  
   </p>
-  <p class="text-gray-900">
+  <p class="text-white ml-3">
   The SASS applies variables, mixins, selector nesting, partials, imports, extensions and more to improve CSS power, and create a cleaner, more compact and maintainable code base. The website offers unique tours with stunning visuals and activities like surfing, skating, parajumping, rock climbing and more. It’s a great platform where users can plan and book their travelling plans.
-  </p>`,
+  </p>
+            <a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 font-bold rounded-sm"
+            href="https://natours-project0.netlify.app/"
+          >
+            www.natours.com
+          </a>
+  `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2022",
     logo: natoursLogo,
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: natours6 }, { url: natours3 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b> Tourism Website.</b>
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://natours-project0.netlify.app/"
-        >
-          www.natours.com
-        </a>
-        , The Design Canvas incorporates a variety of features, including animations with @keyframes and transitions, clip-paths, background-clip, shape-outside, backdrop filter, transform, object-fit, perspective, and calc() to showcase the power of CSS styling.
-      </p>
-      <p class="text-gray-900">
-      It also uses the BEM (Block-Element-Modeling) design convention and employs complex selectors, and pseudo selectors. Additionally, the 7-1 rule for component-based design architecture is applied to promote reusable, scalable, and maintainable code.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b> Tourism Website.</b>
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://natours-project0.netlify.app/"
+        //   >
+        //     www.natours.com
+        //   </a>
+        //   , The Design Canvas incorporates a variety of features, including animations with @keyframes and transitions, clip-paths, background-clip, shape-outside, backdrop filter, transform, object-fit, perspective, and calc() to showcase the power of CSS styling.
+        // </p>
+        // <p class="text-white">
+        // It also uses the BEM (Block-Element-Modeling) design convention and employs complex selectors, and pseudo selectors. Additionally, the 7-1 rule for component-based design architecture is applied to promote reusable, scalable, and maintainable code.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
       },
       {
-        title: "Workflow Builder",
+        title: "",
+        // Workflow Builder
         images: [{ url: natours4 }, { url: natours5 }],
-        description: `<p class="mb-4 text-gray-900">
-        This tool is designed to handle various tasks, including the addition of tours and other essential items. It allows administrators to maintain control over the platform’s operations, ensuring that all activities are carried out efficiently and effectively.
-        Moreover, the Workflow Builder is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.
-      </p>
-      <p class="text-gray-900">
-      The Workflow Builder of the Natours website is a robust and reliable tool that plays a crucial role in the successful management of a tourism platform.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   This tool is designed to handle various tasks, including the addition of tours and other essential items. It allows administrators to maintain control over the platform’s operations, ensuring that all activities are carried out efficiently and effectively.
+        //   Moreover, the Workflow Builder is developed with a focus on maximizing returns with minimum investment. It allows for the safe and efficient management of data, including the selection of data collection records, proper and safe data readings, proper feedmill and medication maintenance, and the report of analytical data.
+        // </p>
+        // <p class="text-white">
+        // The Workflow Builder of the Natours website is a robust and reliable tool that plays a crucial role in the successful management of a tourism platform.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -636,40 +680,49 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   {
     title: "Car Rent",
     images: [{ url: next }, { url: next2 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
-  <p class="text-gray-900">
+  <p class="text-white ml-3">
     Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
     subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
     audience and build the foundation for segmented marketing experiences designed to convert.
-  </p>`,
+  </p>
+            <a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm"
+            href="https://rent-car1.netlify.app/"
+          >
+            www.carhub.com
+          </a>
+  `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2023",
     logo: nextLogo,
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: next3 }, { url: next4 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://rent-car1.netlify.app/"
-        >
-          www.carhub.com
-        </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b>AD Popup creator</b> for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://rent-car1.netlify.app/"
+        //   >
+        //     www.carhub.com
+        //   </a>
+        //   , Design Canvas does provide both designers and non-techical
+        //   persons the ability to create seamless ad popups that can be
+        //   integrated to the system using justuno.com.
+        // </p>
+        // <p class="text-white">
+        //   With the Design Canvas a user can intuitively create any type of
+        //   popup with our vast list of plugins and components.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -679,40 +732,49 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   {
     title: "Group Chat",
     images: [{ url: chat1 }, { url: chat4 }],
-    description: `<p class="mb-4 text-gray-900">
+    description: `<p class="mb-4 ml-3 text-white">
     Create Personalized Website Experiences that Convert and Turn more website traffic into customers. 
     The fastest way to increase sales, lower costs, and hit your goals.     
   </p>
-  <p class="text-gray-900">
+  <p class="text-white ml-3">
     Leverage engaging, personalized CRO features designed to turn anonymous website traffic into known 
     subscribers and high-value customers. Use high-performing email and SMS collection to scale your 
     audience and build the foundation for segmented marketing experiences designed to convert.
-  </p>`,
+  </p>
+            <a
+            class="px-1.5 ml-3 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm"
+            href="https://group-chat0.netlify.app/login"
+          >
+            www.group-chat.com
+          </a>
+  `,
     services: ["001", "002"],
     techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
-    startYear: "2018",
+    startYear: "2023",
     logo: chatLogo,
     isHomePage: true,
     subSystems: [
       {
-        title: "Design Canvas",
+        title: "",
+        // Design Canvas
         images: [{ url: chat2 }, { url: chat3 }],
-        description: `<p class="mb-4 text-gray-900">
-        Beatufiully designed <b>AD Popup creator</b> for 
-        <a
-          class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
-          href="https://group-chat0.netlify.app/login"
-        >
-          www.group-chat.com
-        </a>
-        , Design Canvas does provide both designers and non-techical
-        persons the ability to create seamless ad popups that can be
-        integrated to the system using justuno.com.
-      </p>
-      <p class="text-gray-900">
-        With the Design Canvas a user can intuitively create any type of
-        popup with our vast list of plugins and components.
-      </p>`,
+        description: "",
+        //   `<p class="mb-4 text-white">
+        //   Beatufiully designed <b>AD Popup creator</b> for
+        //   <a
+        //     class="px-1.5 py-0.5 bg-yellow-900 text-grey-900 font-bold rounded-sm"
+        //     href="https://group-chat0.netlify.app/login"
+        //   >
+        //     www.group-chat.com
+        //   </a>
+        //   , Design Canvas does provide both designers and non-techical
+        //   persons the ability to create seamless ad popups that can be
+        //   integrated to the system using justuno.com.
+        // </p>
+        // <p class="text-white">
+        //   With the Design Canvas a user can intuitively create any type of
+        //   popup with our vast list of plugins and components.
+        // </p>`
         services: ["001", "002", "004"],
         techologies: ["react", "golang", "sass"],
         year: "2023",
@@ -958,8 +1020,8 @@ export const TechnologyItems: TechnologyInterface[] = [
     icon: "react",
   },
   {
-    title: "Go",
-    icon: "golang",
+    title: "Css",
+    icon: "css3-alt",
   },
   {
     title: "Sass",

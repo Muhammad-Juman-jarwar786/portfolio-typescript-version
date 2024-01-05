@@ -15,7 +15,7 @@ const TechnologyList: React.FC<{ technologies: string[] }> = ({
           .map((techology, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center bg-yellow-900 text-gray-900 p-[2px] lg:p-2 mr-2 mb-2"
+              className="flex flex-col items-center justify-center bg-gray-900 text-white p-[2px] lg:p-2 mr-2 mb-2"
             >
               {techology.svg ? (
                 <img

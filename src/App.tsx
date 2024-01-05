@@ -76,7 +76,7 @@ const App = () => {
                 </motion.p>
               </div>
               {/* <ProjectsShowCase /> */}
-              <div className="flex flex-col mt-20 lg:mt-28 overflow-x-hidden bg-white">
+              <div className="flex flex-col mt-20 lg:mt-28 overflow-x-hidden bg-[#050816]">
                 <div className="flex xl:flex-row flex-col h-full">
                   <div className="flex flex-col">
                     {PortfolioItems.map((item, idx) => (
