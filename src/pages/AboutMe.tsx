@@ -95,8 +95,11 @@ const AboutMe = () => {
         <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mt-10 lg:mt-20 xl:-mt-10 2xl:mt-10 text-yellow-500 text-center">
           Who am I ?
         </h1>
-        <div className="grid lg:grid-cols-3 gap-0 h-[77dvh] sm:h-[50vh] md:h-[50dvh] xl:h-[30dvh] mt-2 lg:mt-5">
-          <motion.div variants={textVariant(1000)} className="lg:col-span-1">
+        <div className="grid lg:grid-cols-3 gap-0 h-[77dvh] bg-[#050816] sm:h-[50vh] md:h-[50dvh] xl:h-[30dvh] mt-2 lg:mt-5">
+          <motion.div
+            variants={textVariant(1000)}
+            className="lg:col-span-1 bg-[#050816]"
+          >
             <div className="flex justify-center ">
               <img
                 className="w-28 h-28 lg:w-64 lg:h-64 mt-5 lg:mb-8 mb-3 lg:mt-10 border-8 object-cover lg:border-spacing-7 border-[#ffffff] rounded-full"
@@ -105,7 +108,7 @@ const AboutMe = () => {
               />
             </div>
           </motion.div>
-          <div className="w-full flex justify-center lg:col-span-2">
+          <div className="w-full flex justify-center bg-[#050816] lg:col-span-2">
             <motion.p
               variants={fadeIn("", "", 0.1, 1)}
               className="mt-3 text-secondary text-[17px] text-justify max-w-3xl leading-[30px]  mx-10"

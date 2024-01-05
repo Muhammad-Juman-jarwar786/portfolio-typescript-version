@@ -391,7 +391,7 @@ export const PortfolioItems: PortfolioListItem[] = [
             www.Code-Web.com
           </a>`,
     services: ["001", "002"],
-    techologies: ["react", "golang", "js", "clickHouse", "gcp"],
+    techologies: ["react", "css3-alt", "js", "clickHouse", "gcp"],
     startYear: "2021",
     logo: dashboardLogo,
     logoName: "Code Web",
@@ -464,7 +464,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "css", "janus", "clickHouse", "gcp"],
     startYear: "2021",
     logo: movieLogo,
     isHomePage: true,

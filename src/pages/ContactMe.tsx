@@ -48,9 +48,9 @@ const ContactMe = () => {
   });
 
   return (
-    <>
+    <div className="bg-[#050816]">
       <motion.div variants={textVariant(1000)}>
-        <h2 className={`${styles.sectionHeadText} mt-20 text-[#915EFF]`}>
+        <h2 className={`${styles.sectionHeadText} pt-20 text-[#915EFF]`}>
           Connect with Me
         </h2>
       </motion.div>
@@ -160,7 +160,7 @@ const ContactMe = () => {
           </form>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

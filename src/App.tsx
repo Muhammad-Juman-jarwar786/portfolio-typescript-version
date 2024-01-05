@@ -52,16 +52,16 @@ const App = () => {
         <Route
           path="/projects"
           element={
-            <>
+            <div className="bg-[#050816]">
               <motion.div variants={textVariant(1000)}>
                 <h2
-                  className={`${styles.sectionHeadText} mt-20 text-[#915EFF]`}
+                  className={`${styles.sectionHeadText} pt-20 text-[#915EFF]`}
                 >
                   Projects
                 </h2>
               </motion.div>
 
-              <div className="w-full flex">
+              <div className="w-full flex ">
                 <motion.p
                   variants={fadeIn("", "", 0.1, 1)}
                   className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-center mx-auto"
@@ -99,7 +99,7 @@ const App = () => {
                   </div>
                 </div>
               </div>
-            </>
+            </div>
           }
         />
         {/* <Route path="/addproject" element={<AddProject />} /> */}
