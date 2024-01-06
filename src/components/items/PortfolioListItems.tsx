@@ -42,7 +42,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
       >
         {!isSubSystem && !isHomePage && (
           <div
-            className="hidden lg:flex h-auto sm:h-auto bg-white pr-8 overflow-hidden lg:relative"
+            className="hidden lg:flex h-auto sm:h-auto bg-[#1D1836] pr-8 overflow-hidden lg:relative"
             style={{ width: "calc(300px + 2rem)" }}
           >
             <Sticky topOffset={20} bottomOffset={-150}>
@@ -56,7 +56,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                   className="h-full flex flex-col"
                 >
                   {logo && (
-                    <div className="text-gray-900 flex items-center justify-center">
+                    <div className="text-white flex items-center justify-center">
                       <img src={logo} className="w-32 h-9 mb-8 mt-2" />
                       {/* <div className="-mt-6 font-semibold text-[2vw]">
                         {logoName}
@@ -64,10 +64,10 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                     </div>
                   )}
                   <div className="w-full">
-                    <h4 className="xl:text-xl text-gray-900 text-xs font-semibold xl:font-normal font-serif">
+                    <h4 className="xl:text-xl text-white text-xs font-semibold xl:font-normal font-serif">
                       {startYear ? "Developed In" : "Year"}
                     </h4>
-                    <h3 className="text-4vw text-gray-900 font-mono font-black mb-8 ">
+                    <h3 className="text-4vw text-yellow-400 font-mono font-black mb-8 ">
                       {startYear || year}
                     </h3>
                   </div>
@@ -97,8 +97,8 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                     key={index}
                     className={`w-full z-10 object-cover object-left h-full  ${
                       !isSubSystem
-                        ? "sm:h-60 lg:h-[38rem]"
-                        : "h-full sm:h-10 lg:h-60 lg:object-cover"
+                        ? "h-auto sm:h-[30rem] lg:h-[38rem]"
+                        : "h-auto sm:h-80 lg:h-60 lg:object-cover"
                     }`}
                     src={image.url}
                   />
@@ -151,20 +151,20 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
         </div>
       </StickyContainer>
       {!isSubSystem && !isHomePage && (
-        <div className="h-full flex flex-col bg-white px-5 lg:hidden mb-8 pb-3">
+        <div className="h-full flex flex-col bg-[#1D1836] px-5 lg:hidden mb-8 pb-3">
           {/* <div className="flex gap-x-4"> */}
           <div className="flex flex-col w-full mt-5">
             {logo && (
               <div className="text-gray-900 flex items-center justify-center">
-                <img src={logo} className="w-20 h-9 mb-8 " />
+                <img src={logo} className="w-[30%] h-auto mb-8 " />
                 {/* <div className="-mt-6 font-semibold text-[4vw]">{logoName}</div> */}
               </div>
             )}
             <div className="w-full mt-2">
-              <h4 className=" text-sm text-gray-900 font-semibold xl:font-normal font-serif">
+              <h4 className=" text-sm text-white font-semibold xl:font-normal font-serif">
                 {startYear ? "Developed In" : "Year"}
               </h4>
-              <h3 className="text-4vw text-gray-900 font-mono font-black mb-4 mt-2">
+              <h3 className="text-4vw text-yellow-400 font-mono font-black mb-4 mt-2">
                 {startYear || year}
               </h3>
             </div>

@@ -6,7 +6,7 @@ const TechnologyList: React.FC<{ technologies: string[] }> = ({
 }) => {
   return (
     <div className="w-full">
-      <h4 className="xl:text-xl text-gray-900 text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
+      <h4 className="xl:text-xl text-white text-lg font-semibold xl:font-normal font-serif my-2 md:my-4">
         Technical Details
       </h4>
       <div className="grid grid-cols-3 gap-1 mb-8 flex-wrap">
@@ -15,17 +15,19 @@ const TechnologyList: React.FC<{ technologies: string[] }> = ({
           .map((techology, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center justify-center bg-gray-900 text-white p-[2px] lg:p-2 mr-2 mb-2"
+              className="flex flex-col items-center justify-center bg-gray-950 text-white p-[2px] lg:p-2 mr-2 mb-2 shadow-lg"
             >
               {techology.svg ? (
                 <img
-                  src={`/icons/${techology.svg}`}
+                  src={`/src/assets/tech/${techology.svg}`}
                   className="h-[30px] object-contain"
                 />
               ) : (
                 <i className={`text-2xl fa-brands fa-${techology.icon}`}></i>
               )}
-              <span className="text-sm">{techology.title}</span>
+              <span className="text-sm text-yellow-400 ">
+                {techology.title}
+              </span>
             </div>
           ))}
       </div>

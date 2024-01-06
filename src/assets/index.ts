@@ -40,6 +40,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import dream from "./experience/dream.png";
+import bitspro from "./experience/bitspro.png";
+import mern from "./experience/mern-stack.png";
+import reactjs1 from "./experience/react&js.png";
+import webgl from "./experience/web-to-graphic.png";
+import webDevelopment from "./experience/webdevelopment.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -128,6 +134,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  dream,
+  bitspro,
+  mern,
+  reactjs1,
+  webgl,
+  webDevelopment,
   carrent,
   jobit,
   tripguide,

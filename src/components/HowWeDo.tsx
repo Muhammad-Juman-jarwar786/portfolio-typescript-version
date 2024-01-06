@@ -77,7 +77,7 @@ const HowWeDo: React.FC = () => {
               key={idx}
               className="text-left flex flex-col gap-5 lg:gap-8 xl:gap-12 2xl:gap-[95px] px-2.5 lg:px-5 xl:px-8 2xl:px-[49px] pt-4 lg:pt-8 xl:pt-12 2xl:pt-[90px]"
             >
-              <div className="text-gray-600 text-sm lg:text-xs xl:text-sm 2xl:text-[20px] font-medium flex gap-5">
+              <div className="text-gray-600 text-[10px] sm:text-sm lg:text-xs xl:text-sm 2xl:text-[20px] font-medium flex gap-5">
                 <p
                   className={`cursor-pointer ${
                     item.title === "Overview" && "text-white font-semibold"

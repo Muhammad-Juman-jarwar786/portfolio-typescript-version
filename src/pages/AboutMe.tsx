@@ -29,58 +29,33 @@ const AboutMe = () => {
           </h1>
           <div className="text-md lg:text-xl font-sans mt-3 lg:mt-10 text-gray-300 text-justify">
             <p>
-              Welcome to my journey as a front-end developer, constantly
-              evolving and transitioning towards becoming a full-stack and MERN
-              stack developer.
-            </p>
-            <br />
-            <p>
-              <span className="text-yellow-500 text-lg lg:text-2xl">
-                My Beginning:
-              </span>
-              My professional journey took off as an intern at BitsPro. This
-              experience allowed me to dive deep into the world of software
-              development, providing me with a strong foundation and a wealth of
-              practical experience.
-            </p>
-            <br />
-            <p>
-              <span className="text-yellow-500 text-lg lg:text-2xl">
-                My Expertise:
-              </span>
-              Specializing in creating user-friendly interfaces, I focus on
-              performance, responsiveness, and accessibility. I am proficient in
-              a variety of technologies and tools, always staying updated with
-              the latest trends.
-            </p>
-            <br />
-            <p>
-              <span className="text-yellow-500 text-lg lg:text-2xl">
-                My Transition:
-              </span>
-              Currently, I am expanding my horizons towards full-stack and MERN
-              stack development. This includes mastering back-end technologies,
-              database management, and cloud computing, enabling me to provide
-              comprehensive solutions.
-            </p>
-            <br />
-            <p>
-              <span className="text-yellow-500 text-lg lg:text-2xl">
-                My Projects:
-              </span>
-              I have had the opportunity to work on a diverse range of projects.
-              Each project has been a new challenge, pushing me to learn and
-              grow.
-            </p>
-            <br />
-            <p>
-              <span className="text-yellow-500 text-lg lg:text-2xl">
-                My Commitment:
-              </span>
-              I am dedicated to delivering excellence in all my endeavors. If
-              you’re seeking a passionate developer who is constantly pushing
-              the boundaries of technology, feel free to reach out. Let’s create
-              something amazing together!
+              As a MERN stack and front-end developer, I am responsible for
+              creating dynamic and interactive web applications using MongoDB,
+              ExpressJs, ReactJs, and NodeJs. I use{" "}
+              <span className="text-yellow-400 text-bold">MongoDB</span> as my
+              database to store and retrieve data in JSON format,{" "}
+              <span className="text-yellow-400 text-bold">Express</span> as my
+              web framework to handle server-side logic and routing,{" "}
+              <span className="text-yellow-400 text-bold">React</span> as my UI
+              library to build user interfaces with components and state
+              management, and{" "}
+              <span className="text-yellow-400 text-bold">Node.js</span> as my
+              runtime environment to execute JavaScript code on the server. I
+              also use various tools and libraries to enhance my development
+              process, such as Webpack, Babel,{" "}
+              <span className="text-yellow-400 text-bold">Redux</span>,{" "}
+              <span className="text-yellow-400 text-bold">Axios</span>,{" "}
+              <span className="text-yellow-400 text-bold">Mongoose</span>,{" "}
+              <span className="text-yellow-400 text-bold">Jest</span>, and more.
+              I write clean, modular, and testable code that follows best
+              practices and industry standards. I collaborate with other
+              developers, designers, and stakeholders to deliver high-quality
+              products that meet the client’s needs and expectations. I am
+              always learning new skills and technologies to keep up with the
+              latest trends and innovations in web development. and I am always
+              Open to help{" "}
+              <span className="text-yellow-400 text-bold">Entrepreneurs</span>{" "}
+              and Startups to build their products.
             </p>
           </div>
         </div>

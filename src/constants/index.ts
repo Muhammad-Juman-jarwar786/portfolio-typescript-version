@@ -17,8 +17,14 @@ import {
   photoshop,
   meta,
   starbucks,
-  tesla,
   shopify,
+  tesla,
+  dream,
+  bitspro,
+  mern,
+  reactjs1,
+  webgl,
+  webDevelopment,
   carrent,
   jobit,
   tripguide,
@@ -158,55 +164,87 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Graphic Designer",
-    company_name: "fiverr",
-    icon: starbucks,
+    title: "Online Dream",
+    company_name: "The Beginning of My Journey as a Web Developer",
+    icon: dream,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "oct 2021 - Jan 2022",
     points: [
-      "Translated concepts into captivating visuals, shaping brand identities and messages through innovative design.",
-      "Collaborated closely with diverse clients to transform visions into tangible, polished designs.",
-      "Created impactful logos, marketing materials, and social media graphics that elevated businesses.",
-      "Earned recognition for consistently delivering designs that captured clients' unique essence.",
+      "My journey as a web developer started when I completed my 12th grade from Army College. I had no prior knowledge of computers and I had to learn everything from scratch. I was motivated by the idea of working online as a freelancer and earning money by creating websites. I knew English, which was helpful, but I still had to work very hard to master the skills I needed.",
     ],
   },
   {
-    title: "React.js Developer",
-    company_name: "Freelancer",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developed and maintained cutting-edge web applications using React.js and related technologies.",
-      "Collaborated with diverse teams including designers, product managers, and developers to craft top-tier digital products.",
-      "Created responsive designs for seamless user experiences across devices and browsers.",
-      "Provided valuable insights through code reviews, fostering a culture of continuous improvement.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "Web Designer",
+    company_name: "Learned Shopify and Fiverr and Started designing Websites",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Feb 2022 - May 2022",
     points: [
-      "Crafting seamless e-commerce experiences on the Shopify platform, blending cutting-edge web development with business acumen.",
-      "Collaborating closely with clients to transform ideas into functional and visually appealing online stores.",
-      "Implementing custom designs, optimizing performance, and ensuring intuitive user interfaces.",
-      "Leveraging Shopify's ecosystem to integrate apps, enhance functionality, and drive sales.",
+      "The first skill I learned was web design. In 2020, one of my teachers suggested me to use Shopify, a platform that allows anyone to create an online store. I followed his advice and created a Fiverr account, where I offered to make Shopify dropshipping websites for clients. This was a popular service at that time and I managed to get some orders. I did this for about six months, until I realized that I wanted to make my own images and logos for the websites, instead of using the ones provided by Shopify or the clients. This led me to my second skill: graphic design.",
     ],
   },
   {
-    title: "Mern stack Developer",
-    company_name: "Bitspro",
-    icon: meta,
+    title: "Web Design to Graphic Design",
+    company_name:
+      "Learned Photoshop and Illustrator and Changed My Fiverr Gigs",
+    icon: webgl,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Apr 2022 - Aug 2022",
     points: [
-      "Empowered by the MERN (MongoDB, Express.js, React.js, Node.js) stack, I've been an active participant in a dynamic development environment, located in Hyderabad's Latifabad district.",
-      "Collaborated closely with a talented team of developers, leveraging collective strengths to deliver successful projects that align with industry best practices.",
-      "Championed the execution of various projects, harnessing cutting-edge technologies such as Three.js, Redux, TypeScript, and more, resulting in a steep learning curve and a repertoire of powerful skills.",
-      "Contributed to the seamless completion of numerous projects, bridging creativity with functionality to create impactful web applications.",
+      "I decided to learn Adobe Photoshop and Adobe Illustrator, two powerful tools for creating and editing images. I developed a keen interest in this field and I switched my Fiverr gigs from web design to graphic design. I started to offer logo design, image editing, and other graphic services. I did this for about four to five months, until I felt the urge to learn something new. I wanted to go beyond the visual aspect of websites and learn how to make them functional and interactive. This brought me to my third skill: web development.",
+    ],
+  },
+
+  {
+    title: "Web Development Basics",
+    company_name:
+      "Learned HTML, CSS, and Bootstrap and Enrolled in Computer Science",
+    icon: webDevelopment,
+    iconBg: "#E6DEDD",
+    date: "sep 2022 - Dec 2022",
+    points: [
+      "I chose to learn HTML, CSS, and Bootstrap, the basic building blocks of web development. I also enrolled in Computer Science as my major in university, to gain a deeper understanding of programming and computer systems. I learned how to create responsive and attractive web pages using these technologies. So I decided to delte my Fiverr gigs for graphic design and Create new one's for Web Development. I thought I had everything I needed to be a successful web developer, but soon I realized that I was missing a crucial component: JavaScript.",
+    ],
+  },
+  {
+    title: "JavaScript Challenge & React Mastery",
+    company_name:
+      "How I Overcame the Difficulties of Learning JavaScript and React with no Resources",
+    icon: reactjs1,
+    iconBg: "#E6DEDD",
+    date: "Jan 2023 - June 2023",
+    points: [
+      "JavaScript is a programming language that allows web developers to add dynamic and interactive features to their websites. I noticed that my websites were static and boring, and they could not do anything when the user clicked a button or performed an action. I wanted to make my websites more engaging and user-friendly, so I decided to learn JavaScript. However, this was not easy, as I could not find any good teacher or resource in my small city, Tando Allahyar. I had to rely on online tutorials and forums, and I faced many challenges and errors along the way. But I did not give up, and I eventually learned JavaScript. I also learned React.js, a popular framework for building user interfaces with JavaScript. I created some projects for my friends, such as a poultry farm management system and a school management system, using React.js. I thought I had reached my destination, but I was wrong. There was still more to learn.",
+    ],
+  },
+  {
+    title: "Internship at Bitspro",
+    company_name: "A Great Learning Experience",
+    icon: bitspro,
+    iconBg: "#E6DEDD",
+    date: "July 2023 - Sep 2023",
+    points: [
+      "My internship at Bitspro Software House was a great learning experience for me. I got to work on real-world projects and use various libraries and frameworks such as Tailwind, Material UI, TypeScript, and Chakra UI. I also improved my portfolio to showcase my work, skills, and expertise. I felt confident in my abilities as a front-end developer and I was ready to take on freelancing projects.",
+    ],
+  },
+  {
+    title: "Full-Stack Development",
+    company_name: "How I Learned the MERN Stack Development",
+    icon: mern,
+    iconBg: "#E6DEDD",
+    date: "Oct 2022 - Dec 2023",
+    points: [
+      "However, one of my friends advised me to learn back-end development as well, because front-end alone was not enough to meet the needs of the clients. They wanted a complete website, not just a static interface. I realized that I had to expand my skill set and learn how to make dynamic and interactive websites. Since I was already proficient in JavaScript, I decided to learn the MERN stack, which consists of MongoDB, Express.js, React.js, and Node.js. These technologies are widely used for building scalable and efficient web applications. I found them easy to learn and apply, and I soon became a full-stack developer.",
+    ],
+  },
+  {
+    title: "My Freelancing Dream",
+    company_name: "Finally Ready to Start My Freelancing Career",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "Now, I am ready to start my freelancing career and provide successful startups to entrepreneurs around the world. I want to help them achieve their goals and make a positive impact with my web development skills. This is my passion and my dream.",
     ],
   },
 ];
@@ -391,7 +429,7 @@ export const PortfolioItems: PortfolioListItem[] = [
             www.Code-Web.com
           </a>`,
     services: ["001", "002"],
-    techologies: ["react", "css3-alt", "js", "clickHouse", "gcp"],
+    techologies: ["react", "material", "ts", "sass", "chart"],
     startYear: "2021",
     logo: dashboardLogo,
     logoName: "Code Web",
@@ -464,7 +502,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "css", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "tailwind", "ts", "html5", "node-js"],
     startYear: "2021",
     logo: movieLogo,
     isHomePage: true,
@@ -534,7 +572,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
     `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "ts", "tailwind", "redux", "animation"],
     startYear: "2022",
     logo: ecommerceLogo,
     isHomePage: true,
@@ -593,7 +631,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   <a class="px-1.5 py-0.5 bg-yellow-400 text-grey-900 font-bold rounded-sm ml-3" href="https://poultryfarm-management-system.web.app/" > Poultry-Farm </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "tailwind", "js", "ts", "chart"],
     startYear: "2022",
     logo: poultryLogo,
     isHomePage: true,
@@ -632,7 +670,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["css3-alt", "sass", "html5", "animation", "node-js"],
     startYear: "2022",
     logo: natoursLogo,
     isHomePage: true,
@@ -697,7 +735,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "nextjs", "ts", "tailwind", "js"],
     startYear: "2023",
     logo: nextLogo,
     isHomePage: true,
@@ -749,7 +787,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
           </a>
   `,
     services: ["001", "002"],
-    techologies: ["react", "golang", "janus", "clickHouse", "gcp"],
+    techologies: ["react", "firebase", "js", "tailwind", "html5"],
     startYear: "2023",
     logo: chatLogo,
     isHomePage: true,
@@ -1012,6 +1050,7 @@ export interface TechnologyInterface {
   icon: string;
   title: string;
   svg?: string;
+  ssvg?: string;
 }
 
 export const TechnologyItems: TechnologyInterface[] = [
@@ -1032,35 +1071,38 @@ export const TechnologyItems: TechnologyInterface[] = [
     icon: "node-js",
   },
   {
-    title: "Android",
-    icon: "android",
+    title: "MaterialUI",
+    icon: "material",
+    svg: "materialUi.svg",
   },
   {
-    title: "Zebra",
-    icon: "zebra",
-    svg: "zebra.png",
+    title: "Typescript",
+    icon: "ts",
+    svg: "typescript1.svg",
   },
   {
-    title: "AWS",
-    icon: "aws",
+    title: "Re-Charts",
+    icon: "chart",
+    svg: "chart.svg",
   },
   {
-    title: "azure",
-    icon: "azure",
-    svg: "azure.png",
+    title: "Tailwind",
+    icon: "tailwind",
+    svg: "tailwindcss1.svg",
   },
   {
-    title: "GCP",
-    icon: "gcp",
-    svg: "gcp.svg",
+    title: "Animation",
+    icon: "animation",
+    svg: "animation.gif",
   },
   {
     title: "Php",
     icon: "php",
   },
   {
-    title: "Wordpress",
-    icon: "wordpress",
+    title: "Redux",
+    icon: "redux",
+    svg: "redux1.svg",
   },
   {
     title: "Html5",
@@ -1071,16 +1113,18 @@ export const TechnologyItems: TechnologyInterface[] = [
     icon: "apple",
   },
   {
-    title: "Joomla",
-    icon: "joomla",
+    title: "NextJS",
+    icon: "nextjs",
+    svg: "nextjs.svg",
   },
   {
     title: "Python",
     icon: "python",
   },
   {
-    title: "DigitalOcean",
-    icon: "digital-ocean",
+    title: "Firebase",
+    icon: "firebase",
+    svg: "firebase.svg",
   },
   {
     title: "Electron",
@@ -1139,15 +1183,14 @@ export const AboutUsFirstSliderCard: AboutUsFirstSliderCardInterface[] = [
   {
     title: "Overview",
     paragraphs: [
-      "BitsPro is a small team of committed individuals focusing on building people-literate technologies. We help startups in building Multiexperience based MVPs leveraging various modalities, digital touchpoints, apps, and devices to design and develop a seamless experience for their customers.",
-      "Our process is driven by a proven MVP Development Framework and powered by passionate people who are committed to delivery and excellence.",
+      "I start using graphs and models to plan the website structure and follow the waterfall model, which has five phases: requirements, design, implementation, testing, and maintenance. Then I sketch the website layout and appearance based on the client’s needs. Then I design using HTML, CSS, and Reactjs. Then I add FrontEnd/Backend logic and Create Database. Lastly I add animation using various React libraries, if needed.",
     ],
     image: image1,
   },
   {
     title: "Specialties",
     paragraphs: [
-      "Multiexperience Solutions, MXDP, Mobile Application Development, Website & Web Application Development, Cloud Infrastructure Management, Mobile VR App Development, Augmented Reality App Development, Data Engineering, Machine Learning, Business Process Automation, and Automation Testing",
+      "I can create responsive and user-friendly web applications using MERN stack. I have a keen eye for design and aesthetics, and I can create attractive and engaging websites. I can learn new technologies quickly and work effectively and efficiently. I have excellent communication and collaboration skills, and I can work well with others. I deliver high-quality products that satisfy the client.",
     ],
     image: image2,
   },
