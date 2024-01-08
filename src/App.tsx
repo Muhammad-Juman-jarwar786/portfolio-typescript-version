@@ -6,7 +6,7 @@ import { styles } from "./styles";
 import {
   About,
   Experience,
-  Feedbacks,
+  // Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -38,7 +38,7 @@ const App = () => {
               <Experience />
               <Tech />
               <Works />
-              <Feedbacks />
+              {/* <Feedbacks /> */}
               <div className="relative z-0">
                 {/* <Contact /> */}
                 <FAQs />

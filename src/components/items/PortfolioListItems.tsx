@@ -91,7 +91,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
             className="shadow-xl"
           >
             {images.map((image, index) => (
-              <>
+              <div key={index}>
                 {!image.title ? (
                   <img
                     key={index}
@@ -117,7 +117,7 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
                     </h6>
                   </div>
                 )}
-              </>
+              </div>
             ))}
           </Carousel>
           {!isHomePage && <div style={{ clear: "both" }}>&nbsp;</div>}
@@ -143,7 +143,11 @@ const PortfolioListItems: React.FC<PortfolioListItem> = ({
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 {subSystems.map((subSystem) => (
-                  <PortfolioListItems {...subSystem} isSubSystem />
+                  <PortfolioListItems
+                    key={subSystem.images[0].url}
+                    {...subSystem}
+                    isSubSystem
+                  />
                 ))}
               </div>
             </>
