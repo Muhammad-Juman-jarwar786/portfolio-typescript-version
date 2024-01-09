@@ -655,7 +655,7 @@ Streamit utilizes captivating, personalized features to transform anonymous webs
   },
   {
     title: "Natours",
-    images: [{ url: natours }, { url: natours2 }],
+    images: [{ url: natours2 }, { url: natours }],
     description: `<p class="mb-4 ml-3 text-gray-300">
     The Natours website is a tour booking web application. It offers various features such as authentication and authorization, tour booking, payment processing, user and admin profiles. The website showcases modern responsive design using HTML/CSS and CSS preprocessing is accomplished using SASS.  
   </p>

@@ -85,9 +85,9 @@ import poultry4 from "./projects/poultryfarm3.png";
 import poultry5 from "./projects/poultryfarm4.png";
 import poultryLogo from "./projects/poultryLogo.svg";
 
-import natours from "./projects/natours2.png";
+import natours2 from "./projects/natours2.png";
 // import natours1 from "./projects/n";
-import natours2 from "./projects/natours.png";
+import natours from "./projects/natours.png";
 import natours3 from "./projects/natours3.png";
 import natours4 from "./projects/natours4.png";
 import natours5 from "./projects/natours5.png";
