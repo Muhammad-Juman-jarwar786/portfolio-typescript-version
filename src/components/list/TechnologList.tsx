@@ -19,7 +19,7 @@ const TechnologyList: React.FC<{ technologies: string[] }> = ({
             >
               {techology.svg ? (
                 <img
-                  src={`/src/assets/tech/${techology.svg}`}
+                  src={`${techology.svg}`}
                   className="h-[30px] object-contain"
                 />
               ) : (

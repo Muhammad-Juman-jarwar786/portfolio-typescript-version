@@ -78,6 +78,14 @@ import {
   chat3,
   chat4,
   chatLogo,
+  materialUi,
+  TypeScript,
+  chartjs,
+  Tailwind,
+  animation,
+  redux1,
+  nextJs,
+  Firebase,
 } from "../assets";
 
 const services = [
@@ -1073,27 +1081,27 @@ export const TechnologyItems: TechnologyInterface[] = [
   {
     title: "MaterialUI",
     icon: "material",
-    svg: "materialUi.svg",
+    svg: materialUi,
   },
   {
     title: "Typescript",
     icon: "ts",
-    svg: "typescript1.svg",
+    svg: TypeScript,
   },
   {
     title: "Re-Charts",
     icon: "chart",
-    svg: "chart.svg",
+    svg: chartjs,
   },
   {
     title: "Tailwind",
     icon: "tailwind",
-    svg: "tailwindcss1.svg",
+    svg: Tailwind,
   },
   {
     title: "Animation",
     icon: "animation",
-    svg: "animation.gif",
+    svg: animation,
   },
   {
     title: "Php",
@@ -1102,7 +1110,7 @@ export const TechnologyItems: TechnologyInterface[] = [
   {
     title: "Redux",
     icon: "redux",
-    svg: "redux1.svg",
+    svg: redux1,
   },
   {
     title: "Html5",
@@ -1115,7 +1123,7 @@ export const TechnologyItems: TechnologyInterface[] = [
   {
     title: "NextJS",
     icon: "nextjs",
-    svg: "nextjs.svg",
+    svg: nextJs,
   },
   {
     title: "Python",
@@ -1124,7 +1132,7 @@ export const TechnologyItems: TechnologyInterface[] = [
   {
     title: "Firebase",
     icon: "firebase",
-    svg: "firebase.svg",
+    svg: Firebase,
   },
   {
     title: "Electron",

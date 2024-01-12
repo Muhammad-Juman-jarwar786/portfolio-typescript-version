@@ -36,6 +36,15 @@ import threejs from "./tech/threejs.svg";
 import adobeillustrator from "./tech/illustrator.svg";
 import expressjs from "./tech/expressjs.svg";
 
+import materialUi from "./tech/materialUi.svg";
+import TypeScript from "./tech/typescript1.svg";
+import chartjs from "./tech/chart.svg";
+import Tailwind from "./tech/tailwindcss1.svg";
+import animation from "./tech/animation.gif";
+import redux1 from "./tech/redux1.svg";
+import nextJs from "./tech/nextjs.svg";
+import Firebase from "./tech/firebase.svg";
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -195,4 +204,12 @@ export {
   chat3,
   chat4,
   chatLogo,
+  materialUi,
+  TypeScript,
+  chartjs,
+  Tailwind,
+  animation,
+  redux1,
+  nextJs,
+  Firebase,
 };
